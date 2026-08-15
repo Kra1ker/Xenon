@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://vepcyarrapdu" path="res://MainMenu/main_menu.gd" id="1_ajn5b"]
 [ext_resource type="Texture2D" uid="uid://dljtnlbe0nm3r" path="res://MainMenu/Untitled397_20260813233353.png" id="1_nhkf3"]
-[ext_resource type="Texture2D" uid="uid://b4imutbuygnbw" path="res://char.png" id="2_3w4mj"]
+[ext_resource type="Texture2D" uid="uid://b1w7f312avlcj" path="res://char.png" id="2_3w4mj"]
 [ext_resource type="FontFile" uid="uid://c6k4njotqaskw" path="res://MainMenu/GrapeSoda.ttf" id="2_5de1l"]
 [ext_resource type="Texture2D" uid="uid://l5tn6q4ink68" path="res://icon.svg" id="5_po2gx"]
 
@@ -135,6 +135,30 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_8ncqn")
 
+[node name="Raccoon" type="Sprite2D" parent="." unique_id=620115621]
+position = Vector2(274, 585)
+texture = ExtResource("2_3w4mj")
+
+[node name="Label" type="Label" parent="." unique_id=1240870562]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -583.0
+offset_top = 108.0
+offset_right = 583.0
+offset_bottom = 618.0001
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 10
+theme_override_constants/shadow_offset_y = 10
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 168
+text = "Project Salivagos
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="VBoxButtons" type="VBoxContainer" parent="." unique_id=670945665]
 layout_mode = 1
 anchors_preset = 8
@@ -194,29 +218,92 @@ text = "Exit
 
 "
 
-[node name="Label" type="Label" parent="." unique_id=1240870562]
+[node name="CreditsMembers" type="Panel" parent="." unique_id=1478708463]
+visible = false
 layout_mode = 1
-anchors_preset = 5
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -700.0
+offset_top = -300.0
+offset_right = 700.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_88ks5")
+
+[node name="ButtonCloseCredits" type="Button" parent="CreditsMembers" unique_id=1347308461]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -106.0
+offset_top = -39.0
+offset_right = 39.0
+offset_bottom = 97.0
+grow_horizontal = 0
+size_flags_vertical = 3
+text = "
+"
+icon = ExtResource("5_po2gx")
+
+[node name="VBoxMembers" type="VBoxContainer" parent="CreditsMembers" unique_id=1285633432]
+layout_mode = 1
+anchors_preset = 13
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -583.0
-offset_top = 108.0
-offset_right = 583.0
-offset_bottom = 618.0001
+anchor_bottom = 1.0
+offset_left = -554.0
+offset_top = 12.0
+offset_right = 554.0
+offset_bottom = 12.0
 grow_horizontal = 2
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_offset_x = 10
-theme_override_constants/shadow_offset_y = 10
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 168
-text = "Project Salivagos
-"
-horizontal_alignment = 1
-vertical_alignment = 1
+grow_vertical = 2
+theme_override_constants/separation = 16
 
-[node name="Raccoon" type="Sprite2D" parent="." unique_id=620115621]
-position = Vector2(274, 585)
-texture = ExtResource("2_3w4mj")
+[node name="Member1" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1619440310]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Tikimfox <tikim.fox@gmail.com>"
+
+[node name="Member2" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=516557257]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Prosto Nikita <bondsen27@gmail.com>"
+
+[node name="Member3" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1159672937]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Kyrylo “Kraiker” Pliasun"
+
+[node name="Member4" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=582391465]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Myatcom <myatcomofficial@gmail.com>"
+
+[node name="Member5" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=372104562]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Yasha Radish <yasharadish@gmail.com>"
+
+[node name="Member6" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=656941912]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Evan Damned Dee <ivdomanskiy2007@gmail.com>"
+
+[node name="Member7" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=405014308]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_font_sizes/font_size = 70
+text = "Viktoriia Khomenko <@v.kh.art>"
 
 [node name="ButtonCredits" type="Button" parent="." unique_id=170241225]
 layout_mode = 1
@@ -240,95 +327,8 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_5de1l")
 text = "Credits
 "
 
-[node name="CreditsMembers" type="Panel" parent="." unique_id=1478708463]
-visible = false
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -500.0
-offset_top = -243.0
-offset_right = 500.0
-offset_bottom = 357.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_88ks5")
-
-[node name="ButtonCloseCredits" type="Button" parent="CreditsMembers" unique_id=1347308461]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -106.0
-offset_top = -34.0
-offset_right = 34.0
-offset_bottom = 102.0
-grow_horizontal = 0
-size_flags_vertical = 3
-text = "
-"
-icon = ExtResource("5_po2gx")
-
-[node name="VBoxMembers" type="VBoxContainer" parent="CreditsMembers" unique_id=1285633432]
-layout_mode = 1
-anchors_preset = 13
-anchor_left = 0.5
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -265.0
-offset_top = 12.0
-offset_right = 265.0
-offset_bottom = 12.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 16
-
-[node name="Member1" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1619440310]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Tikimfox"
-
-[node name="Member2" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=516557257]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Prosto Nikita"
-
-[node name="Member3" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1159672937]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "kraiker"
-
-[node name="Member4" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=582391465]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Myatcom"
-
-[node name="Member5" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=372104562]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Yasha Radish"
-
-[node name="Member6" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=656941912]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Dafaque"
-
-[node name="Member7" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=405014308]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
-theme_override_font_sizes/font_size = 70
-text = "Viktoriia Khomenko"
-
 [connection signal="pressed" from="VBoxButtons/ButtonStart" to="." method="_on_button_start_pressed"]
 [connection signal="pressed" from="VBoxButtons/ButtonSettings" to="." method="_on_button_settings_pressed"]
 [connection signal="pressed" from="VBoxButtons/ButtonExit" to="." method="_on_button_exit_pressed"]
-[connection signal="pressed" from="ButtonCredits" to="." method="_on_button_credits_pressed"]
 [connection signal="pressed" from="CreditsMembers/ButtonCloseCredits" to="." method="_on_button_close_credits_pressed"]
+[connection signal="pressed" from="ButtonCredits" to="." method="_on_button_credits_pressed"]
