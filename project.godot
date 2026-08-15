@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Enot-xenon"
-run/main_scene="uid://dfk38cssr1dbp"
+run/main_scene="uid://bbvmh3f3gyq75"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
+window/size/mode=3
 window/stretch/mode="canvas_items"
 
 [editor]
