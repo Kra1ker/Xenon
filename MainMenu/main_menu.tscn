@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://bbvmh3f3gyq75"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_whdr2"]
+bg_color = Color(0.9384497, 0.9384497, 0.9384497, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 5
+shadow_offset = Vector2(2, 3)
+
+[node name="MainMenu" type="Control" unique_id=2025526614]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=670945665]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -125.0
+offset_right = 250.0
+offset_bottom = 125.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="ButtonStart" type="Button" parent="VBoxContainer" unique_id=1657029839]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
+text = "Start Game
+"
+
+[node name="ButtonSettings" type="Button" parent="VBoxContainer" unique_id=2102288370]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
+text = "Settings
+
+"
+
+[node name="ButtonExit" type="Button" parent="VBoxContainer" unique_id=552682357]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
+text = "Exit
+
+"
