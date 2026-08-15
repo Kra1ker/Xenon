@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dfk38cssr1dbp"]
+
+[ext_resource type="PackedScene" uid="uid://doira3ta7jhgs" path="res://player.tscn" id="1_u52ul"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u52ul"]
+size = Vector2(2077, 436)
+
+[node name="Main" type="Node2D" unique_id=1737159512]
+
+[node name="Player" parent="." unique_id=1147158407 instance=ExtResource("1_u52ul")]
+position = Vector2(520, 274)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1157443275]
+position = Vector2(235, 671)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1722527640]
+position = Vector2(766.5, 415)
+shape = SubResource("RectangleShape2D_u52ul")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=441626646]
+offset_left = -273.0
+offset_top = 197.0
+offset_right = 1808.0
+offset_bottom = 637.0
