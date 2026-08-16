@@ -7,7 +7,9 @@
 [ext_resource type="Resource" uid="uid://bvsfyvn4yh0jy" path="res://scripts/banana.tres" id="3_uae8j"]
 [ext_resource type="Resource" uid="uid://dt56lhnaqt2p2" path="res://scripts/pencil.tres" id="5_s887n"]
 
-[node name="Inventory" type="Control" unique_id=1120814163]
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1722406216]
+
+[node name="Inventory" type="Control" parent="." unique_id=1120814163]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -16,7 +18,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_53g1v")
 
-[node name="Panel" type="Panel" parent="." unique_id=162791528]
+[node name="Panel" type="Panel" parent="Inventory" unique_id=162791528]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -31,7 +33,7 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="MarginContainer" type="MarginContainer" parent="Panel" unique_id=1110930743]
+[node name="MarginContainer" type="MarginContainer" parent="Inventory/Panel" unique_id=1110930743]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -49,20 +51,20 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="GridContainer" type="GridContainer" parent="Panel/MarginContainer" unique_id=1627905439]
+[node name="GridContainer" type="GridContainer" parent="Inventory/Panel/MarginContainer" unique_id=1627905439]
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_constants/h_separation = 20
 theme_override_constants/v_separation = 20
 columns = 5
 
-[node name="ItemSlot" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=605509181]
+[node name="ItemSlot" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=605509181]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 item = ExtResource("3_uae8j")
 
-[node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot" unique_id=1663351478]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot" unique_id=1663351478]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -75,13 +77,13 @@ texture = ExtResource("1_pohso")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot2" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=1526670613]
+[node name="ItemSlot2" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=1526670613]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 item = ExtResource("5_s887n")
 
-[node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot2" unique_id=1242110276]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot2" unique_id=1242110276]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -94,12 +96,12 @@ texture = ExtResource("3_5tt2m")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot3" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=1845966995]
+[node name="ItemSlot3" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=1845966995]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot3" unique_id=1670809189]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot3" unique_id=1670809189]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -111,12 +113,12 @@ grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot4" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=264123709]
+[node name="ItemSlot4" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=264123709]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot4" unique_id=428364899]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot4" unique_id=428364899]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -128,12 +130,12 @@ grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot5" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=565850267]
+[node name="ItemSlot5" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=565850267]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot5" unique_id=913767294]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot5" unique_id=913767294]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
