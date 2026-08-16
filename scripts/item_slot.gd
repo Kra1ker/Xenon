@@ -1,10 +1,24 @@
 extends Panel
 
 @onready var icon: TextureRect = $Icon
+@export var item: ItemData
+
+
+func _ready() -> void:
+	update_ui()
+	
+	
+func update_ui() -> void:
+	if not item:
+		icon.texture = null
+		return
+	
+	icon.texture = item.icon
+	tooltip_text = item.item_name
 
 
 func _get_drag_data(_at_position: Vector2) -> Variant:
-	if icon.texture == null:
+	if not item:
 		return
 	
 	var preview = duplicate()
@@ -16,7 +30,7 @@ func _get_drag_data(_at_position: Vector2) -> Variant:
 	
 	set_drag_preview(c)
 	icon.hide()
-	return icon
+	return self
 
 
 func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
@@ -27,8 +41,10 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	
 	# Swapping items may be useful in the future for
 	# adding crafting
-	var tmp = icon.texture  # swapping items
-	icon.texture = data.texture
-	data.texture = tmp  # swapping items
-	data.show()
-	
+	var tmp = item  # swapping items
+	item = data.item
+	data.item = tmp  # swapping items
+	icon.show()
+	data.icon.show()
+	update_ui()
+	data.update_ui()

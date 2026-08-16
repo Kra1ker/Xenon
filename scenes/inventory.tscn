@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_pohso"]
 [ext_resource type="Script" uid="uid://cdqjev7qo7we2" path="res://scripts/item_slot.gd" id="1_psafj"]
 [ext_resource type="Texture2D" uid="uid://b0gqi2717fh5w" path="res://assets/sprites/items/pencil.png" id="3_5tt2m"]
+[ext_resource type="Resource" uid="uid://bvsfyvn4yh0jy" path="res://scripts/banana.tres" id="3_uae8j"]
+[ext_resource type="Resource" uid="uid://dt56lhnaqt2p2" path="res://scripts/pencil.tres" id="5_s887n"]
 
 [node name="Inventory" type="Control" unique_id=1120814163]
 layout_mode = 3
@@ -58,6 +60,7 @@ columns = 5
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
+item = ExtResource("3_uae8j")
 
 [node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot" unique_id=1663351478]
 layout_mode = 1
@@ -76,6 +79,7 @@ stretch_mode = 5
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
+item = ExtResource("5_s887n")
 
 [node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot2" unique_id=1242110276]
 layout_mode = 1
