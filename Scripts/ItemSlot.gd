@@ -24,4 +24,5 @@ func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
 
 func _drop_data(at_position: Vector2, data: Variant) -> void:
 	icon.texture = data.texture
+	data.texture = null
 	
