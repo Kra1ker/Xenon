@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://bbvmh3f3gyq75"]
 
-[ext_resource type="Script" uid="uid://vepcyarrapdu" path="res://scripts/main_menu.gd" id="1_ajn5b"]
-[ext_resource type="Texture2D" uid="uid://dljtnlbe0nm3r" path="res://assets/Untitled397_20260813233353.png" id="1_nhkf3"]
-[ext_resource type="FontFile" uid="uid://c6k4njotqaskw" path="res://assets/fonts/GrapeSoda.ttf" id="2_5de1l"]
-[ext_resource type="Texture2D" uid="uid://b1w7f312avlcj" path="res://assets/sprites/char.png" id="3_po2gx"]
-[ext_resource type="Texture2D" uid="uid://l5tn6q4ink68" path="res://assets/icon.svg" id="5_po2gx"]
+[ext_resource type="Script" uid="uid://vepcyarrapdu" path="res://scripts/main_menu.gd" id="1_8ln24"]
+[ext_resource type="Texture2D" uid="uid://dljtnlbe0nm3r" path="res://assets/Untitled397_20260813233353.png" id="2_rtw2f"]
+[ext_resource type="Texture2D" uid="uid://b1w7f312avlcj" path="res://assets/sprites/char.png" id="3_oa1go"]
+[ext_resource type="FontFile" uid="uid://c6k4njotqaskw" path="res://assets/fonts/GrapeSoda.ttf" id="4_tbmy8"]
+[ext_resource type="Texture2D" uid="uid://l5tn6q4ink68" path="res://assets/icon.svg" id="5_jk1qb"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8ncqn"]
-texture = ExtResource("1_nhkf3")
+texture = ExtResource("2_rtw2f")
 modulate_color = Color(0.51718444, 0.5171845, 0.51718444, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_whdr2"]
@@ -124,7 +124,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ajn5b")
+script = ExtResource("1_8ln24")
 
 [node name="Panel" type="Panel" parent="." unique_id=581738385]
 layout_mode = 1
@@ -137,7 +137,7 @@ theme_override_styles/panel = SubResource("StyleBoxTexture_8ncqn")
 
 [node name="Raccoon" type="Sprite2D" parent="." unique_id=620115621]
 position = Vector2(274, 585)
-texture = ExtResource("3_po2gx")
+texture = ExtResource("3_oa1go")
 
 [node name="Label" type="Label" parent="." unique_id=1240870562]
 layout_mode = 1
@@ -152,7 +152,7 @@ grow_horizontal = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 10
 theme_override_constants/shadow_offset_y = 10
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 168
 text = "Project Salivagos
 "
@@ -178,7 +178,7 @@ theme_override_constants/separation = 10
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_5de1l")
@@ -192,7 +192,7 @@ text = "Start Game
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_kbpwf")
@@ -207,7 +207,7 @@ text = "Settings
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_r0x8f")
@@ -247,7 +247,7 @@ grow_horizontal = 0
 size_flags_vertical = 3
 text = "
 "
-icon = ExtResource("5_po2gx")
+icon = ExtResource("5_jk1qb")
 
 [node name="VBoxMembers" type="VBoxContainer" parent="CreditsMembers" unique_id=1285633432]
 layout_mode = 1
@@ -265,43 +265,43 @@ theme_override_constants/separation = 16
 
 [node name="Member1" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1619440310]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Tikimfox <tikim.fox@gmail.com>"
 
 [node name="Member2" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=516557257]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Prosto Nikita <bondsen27@gmail.com>"
 
 [node name="Member3" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=1159672937]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Kyrylo “Kraiker” Pliasun"
 
 [node name="Member4" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=582391465]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Myatcom <myatcomofficial@gmail.com>"
 
 [node name="Member5" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=372104562]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Yasha Radish <yasharadish@gmail.com>"
 
 [node name="Member6" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=656941912]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Evan Damned Dee <ivdomanskiy2007@gmail.com>"
 
 [node name="Member7" type="Label" parent="CreditsMembers/VBoxMembers" unique_id=405014308]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 70
 text = "Viktoriia Khomenko <@v.kh.art>"
 
@@ -317,7 +317,7 @@ offset_bottom = -90.0
 grow_vertical = 0
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_5de1l")
+theme_override_fonts/font = ExtResource("4_tbmy8")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_whdr2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_5de1l")
