@@ -25,23 +25,32 @@ func _input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			print("Pressed")
-			
+
 			var cam := get_viewport().get_camera_2d()
 			var space := cam.get_world_2d().direct_space_state
-			
-			var param = PhysicsRayQueryParameters2D.new()
-			param.from = cam.project_ray_origin(event.position)
-			param.to = param.from + cam.project_ray_normal(event.position) * 100
-			
-			var ray := space.intersect_ray(param)
-			if ray and ray["collider"] is RigidBody2D:
-				var world_item = ray["collider"]
-				for slot in %InventoryGridContainer.get_children():
-					if slot.item: continue
-					
-					# Gets first empty slot
-					slot.item = ray["collider"].get_meta("item_data")
-					slot.update_ui()
-					world_item.queue_free()
+
+			var param := PhysicsPointQueryParameters2D.new()
+			param.position = cam.get_global_mouse_position()
+			param.collide_with_areas = true
+			param.collide_with_bodies = true
+
+			var results := space.intersect_point(param)
+
+			for result in results:
+				var collider = result["collider"]
+
+				if collider is RigidBody2D:
+					var world_item = collider
+
+					for slot in %InventoryGridContainer.get_children():
+						if slot.item:
+							continue
+
+						# Gets first empty slot
+						slot.item = world_item.get_meta("item_data")
+						slot.update_ui()
+						world_item.queue_free()
+						break
+
 					break
 					
