@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://doira3ta7jhgs" path="res://scenes/player.tscn" id="1_u52ul"]
 [ext_resource type="PackedScene" uid="uid://dieuwdtdcg868" path="res://scenes/inventory.tscn" id="2_w7c3h"]
+[ext_resource type="Script" uid="uid://d1ww1s15l6ijp" path="res://scripts/world_drop.gd" id="3_w8frs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u52ul"]
 size = Vector2(2077, 436)
@@ -25,3 +26,12 @@ offset_left = -273.0
 offset_top = 197.0
 offset_right = 1808.0
 offset_bottom = 637.0
+
+[node name="WorldDropItem" type="Control" parent="." unique_id=916560313]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_w8frs")
