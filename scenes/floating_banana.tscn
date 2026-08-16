@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://vh1wa4omhwvq"]
 
-[ext_resource type="Script" uid="uid://d3r1gnoi7n0uu" path="res://Scripts/floating_banana.gd" id="1_py51x"]
+[ext_resource type="Script" uid="uid://d3r1gnoi7n0uu" path="res://scripts/floating_item.gd" id="1_py51x"]
 [ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="2_vs07f"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d56gg"]
