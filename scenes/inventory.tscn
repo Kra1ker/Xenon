@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dieuwdtdcg868"]
 
+[ext_resource type="Script" uid="uid://odf8cofp864d" path="res://scripts/inventory.gd" id="1_53g1v"]
 [ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_pohso"]
 [ext_resource type="Script" uid="uid://cdqjev7qo7we2" path="res://scripts/item_slot.gd" id="1_psafj"]
 [ext_resource type="Texture2D" uid="uid://b0gqi2717fh5w" path="res://assets/sprites/items/pencil.png" id="3_5tt2m"]
@@ -11,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_53g1v")
 
 [node name="Panel" type="Panel" parent="." unique_id=162791528]
 layout_mode = 1
