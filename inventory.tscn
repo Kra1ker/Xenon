@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dieuwdtdcg868"]
 
+[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://Assets/items/banana.png" id="1_pohso"]
+
 [node name="Inventory" type="Control" unique_id=1120814163]
 layout_mode = 3
 anchors_preset = 15
@@ -31,10 +33,15 @@ offset_bottom = 40.0
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/ItemSlot" unique_id=1663351478]
+[node name="Icon" type="TextureRect" parent="Panel/GridContainer/ItemSlot" unique_id=1663351478]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.1
+anchor_right = 0.9
+anchor_bottom = 0.9
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("1_pohso")
+expand_mode = 1
+stretch_mode = 5
