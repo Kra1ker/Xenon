@@ -15,6 +15,7 @@ func _get_drag_data(_at_position: Vector2) -> Variant:
 	c.modulate = Color(c.modulate, 0.5)
 	
 	set_drag_preview(c)
+	icon.hide()
 	return icon
 
 
@@ -29,4 +30,5 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	var tmp = icon.texture  # swapping items
 	icon.texture = data.texture
 	data.texture = tmp  # swapping items
+	data.show()
 	
