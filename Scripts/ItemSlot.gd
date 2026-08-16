@@ -23,6 +23,10 @@ func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
 	
 
 func _drop_data(at_position: Vector2, data: Variant) -> void:
+	
+	# Swapping items may be useful in the future for
+	# adding crafting
+	var tmp = icon.texture  # swapping items
 	icon.texture = data.texture
-	data.texture = null
+	data.texture = tmp  # swapping items
 	
