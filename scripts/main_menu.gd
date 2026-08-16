@@ -1,5 +1,6 @@
 extends Control
 
+@onready var click_button: AudioStreamPlayer = $Audio/ClickButton
 @onready var vboxbuttons = $VBoxButtons
 @onready var label = $Label
 @onready var button_credits = $ButtonCredits
@@ -17,18 +18,22 @@ func _process(delta: float) -> void:
 func _on_button_start_pressed() -> void:
 	print("Start Pressed")
 	get_tree().change_scene_to_file("res://scenes/level.tscn")
+	click_button.play()
 
 
 func _on_button_settings_pressed() -> void:
 	print("Settings Pressed")
+	click_button.play()
 
 
 func _on_button_exit_pressed() -> void:
 	print("Exit Pressed")
 	get_tree().quit()
+	click_button.play()
 
 
 func _on_button_credits_pressed() -> void:
+	click_button.play()
 	credits_panel.show()
 	
 	vboxbuttons.hide()
@@ -40,6 +45,7 @@ func _on_button_credits_pressed() -> void:
 
 
 func _on_button_close_credits_pressed() -> void:
+	click_button.play()
 	credits_panel.hide()
 	
 	vboxbuttons.show()

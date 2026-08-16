@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bt5sjmv66amtm"
+path="res://.godot/imported/Background music (Level 2 & Level 6).mp3-43147ab28d913bd1d227e445ee72b702.mp3str"
+
+[deps]
+
+source_file="res://assets/Music-Sounds/Music/Background music (Level 2 & Level 6).mp3"
+dest_files=["res://.godot/imported/Background music (Level 2 & Level 6).mp3-43147ab28d913bd1d227e445ee72b702.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
