@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dieuwdtdcg868"]
 
 [ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://Assets/items/banana.png" id="1_pohso"]
+[ext_resource type="Script" uid="uid://cdqjev7qo7we2" path="res://Scripts/ItemSlot.gd" id="1_psafj"]
 
 [node name="Inventory" type="Control" unique_id=1120814163]
 layout_mode = 3
@@ -50,6 +51,7 @@ columns = 5
 [node name="ItemSlot" type="Panel" parent="Panel/MarginContainer/GridContainer" unique_id=605509181]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
+script = ExtResource("1_psafj")
 
 [node name="Icon" type="TextureRect" parent="Panel/MarginContainer/GridContainer/ItemSlot" unique_id=1663351478]
 layout_mode = 1
