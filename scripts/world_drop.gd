@@ -20,8 +20,15 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	print("Droped out")
 
 
+func _notification(what: int) -> void:
+	if what == Node.NOTIFICATION_DRAG_BEGIN:
+		mouse_filter = Control.MOUSE_FILTER_PASS
+	if what == Node.NOTIFICATION_DRAG_END:
+		mouse_filter = Control.MOUSE_FILTER_IGNORE
+		
+
 # Get items back
-func _input(event: InputEvent) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			print("Pressed")
