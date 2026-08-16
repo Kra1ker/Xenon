@@ -8,5 +8,11 @@ func _get_drag_data(_at_position: Vector2) -> Variant:
 		return
 	
 	var preview = duplicate()
-	set_drag_preview(preview)
+	var c = Control.new()
+	c.add_child(preview)
+	preview.position -= Vector2(25, 25)
+	preview.self_modulate = Color.TRANSPARENT
+	c.modulate = Color(c.modulate, 0.5)
+	
+	set_drag_preview(c)
 	return icon
