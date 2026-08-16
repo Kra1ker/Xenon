@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0gqi2717fh5w"
-path="res://.godot/imported/pencil.png-3b88524e74ded3fa2917730ed6aa0615.ctex"
+uid="uid://ckbm66m8fvtbr"
+path="res://.godot/imported/shoe.png-db67b49006a13dc92b2fc78c7063e80e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/pencil.png"
-dest_files=["res://.godot/imported/pencil.png-3b88524e74ded3fa2917730ed6aa0615.ctex"]
+source_file="res://assets/sprites/items/shoe.png"
+dest_files=["res://.godot/imported/shoe.png-db67b49006a13dc92b2fc78c7063e80e.ctex"]
 
 [params]
 

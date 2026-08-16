@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7ou3keqnu4hb"
-path="res://.godot/imported/needle pad.png-517cf67243d8f748e473220be0b49b11.ctex"
+uid="uid://bqtqbn5ng5e4b"
+path="res://.godot/imported/sweater.png-258d8e63b68e40e35f6f5c1088b0c10f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/needle pad.png"
-dest_files=["res://.godot/imported/needle pad.png-517cf67243d8f748e473220be0b49b11.ctex"]
+source_file="res://assets/sprites/items/sweater.png"
+dest_files=["res://.godot/imported/sweater.png-258d8e63b68e40e35f6f5c1088b0c10f.ctex"]
 
 [params]
 

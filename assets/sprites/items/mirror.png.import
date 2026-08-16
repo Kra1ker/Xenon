@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1mr3ywleo80w"
-path="res://.godot/imported/banana.png-7396f91cf5f7c568bf2d7636babc151a.ctex"
+uid="uid://4i1gamb3jqs1"
+path="res://.godot/imported/mirror.png-95461a43db20f9588a41c0ba2dee2592.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/banana.png"
-dest_files=["res://.godot/imported/banana.png-7396f91cf5f7c568bf2d7636babc151a.ctex"]
+source_file="res://assets/sprites/items/mirror.png"
+dest_files=["res://.godot/imported/mirror.png-95461a43db20f9588a41c0ba2dee2592.ctex"]
 
 [params]
 

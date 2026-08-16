@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb6iltukubbdc"
-path="res://.godot/imported/fan.png-94c93a437afba267be062ded62cc0559.ctex"
+uid="uid://b0gqi2717fh5w"
+path="res://.godot/imported/pencil.png-0e9ef7f4c5d9df7b983a6f59cd7b1fa3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/fan.png"
-dest_files=["res://.godot/imported/fan.png-94c93a437afba267be062ded62cc0559.ctex"]
+source_file="res://assets/sprites/items/pencil.png"
+dest_files=["res://.godot/imported/pencil.png-0e9ef7f4c5d9df7b983a6f59cd7b1fa3.ctex"]
 
 [params]
 

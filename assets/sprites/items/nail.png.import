@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckbm66m8fvtbr"
-path="res://.godot/imported/shoe.png-c3e601e679c3605190a03563ff1f6c59.ctex"
+uid="uid://deaptb07r4krp"
+path="res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/shoe.png"
-dest_files=["res://.godot/imported/shoe.png-c3e601e679c3605190a03563ff1f6c59.ctex"]
+source_file="res://assets/sprites/items/nail.png"
+dest_files=["res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brllyru6dcj2q"
-path="res://.godot/imported/firefly.png-4826ceed62c8af4b2b733fda9e5939de.ctex"
+uid="uid://b7ou3keqnu4hb"
+path="res://.godot/imported/needle pad.png-6536c415ce652b3f0c13bbef3e6bfc23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/firefly.png"
-dest_files=["res://.godot/imported/firefly.png-4826ceed62c8af4b2b733fda9e5939de.ctex"]
+source_file="res://assets/sprites/items/needle pad.png"
+dest_files=["res://.godot/imported/needle pad.png-6536c415ce652b3f0c13bbef3e6bfc23.ctex"]
 
 [params]
 

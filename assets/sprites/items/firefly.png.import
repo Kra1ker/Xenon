@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://61xrdr3haecr"
-path="res://.godot/imported/moss.png-395da46545372730cc4cc12a7112ad2a.ctex"
+uid="uid://brllyru6dcj2q"
+path="res://.godot/imported/firefly.png-db6a07995e98182b282f1f923ff35af8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/moss.png"
-dest_files=["res://.godot/imported/moss.png-395da46545372730cc4cc12a7112ad2a.ctex"]
+source_file="res://assets/sprites/items/firefly.png"
+dest_files=["res://.godot/imported/firefly.png-db6a07995e98182b282f1f923ff35af8.ctex"]
 
 [params]
 
