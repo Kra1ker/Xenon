@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://bbvmh3f3gyq75"]
 
 [ext_resource type="Script" uid="uid://vepcyarrapdu" path="res://MainMenu/main_menu.gd" id="1_ajn5b"]
-[ext_resource type="Texture2D" uid="uid://dljtnlbe0nm3r" path="res://MainMenu/Untitled397_20260813233353.png" id="1_nhkf3"]
-[ext_resource type="Texture2D" uid="uid://b1w7f312avlcj" path="res://char.png" id="2_3w4mj"]
-[ext_resource type="FontFile" uid="uid://c6k4njotqaskw" path="res://MainMenu/GrapeSoda.ttf" id="2_5de1l"]
-[ext_resource type="Texture2D" uid="uid://l5tn6q4ink68" path="res://icon.svg" id="5_po2gx"]
+[ext_resource type="Texture2D" uid="uid://dljtnlbe0nm3r" path="res://assets/Untitled397_20260813233353.png" id="1_nhkf3"]
+[ext_resource type="FontFile" uid="uid://c6k4njotqaskw" path="res://assets/fonts/GrapeSoda.ttf" id="2_5de1l"]
+[ext_resource type="Texture2D" uid="uid://b1w7f312avlcj" path="res://assets/sprites/char.png" id="3_po2gx"]
+[ext_resource type="Texture2D" uid="uid://l5tn6q4ink68" path="res://assets/icon.svg" id="5_po2gx"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8ncqn"]
 texture = ExtResource("1_nhkf3")
@@ -137,7 +137,7 @@ theme_override_styles/panel = SubResource("StyleBoxTexture_8ncqn")
 
 [node name="Raccoon" type="Sprite2D" parent="." unique_id=620115621]
 position = Vector2(274, 585)
-texture = ExtResource("2_3w4mj")
+texture = ExtResource("3_po2gx")
 
 [node name="Label" type="Label" parent="." unique_id=1240870562]
 layout_mode = 1
