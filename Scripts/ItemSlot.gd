@@ -16,3 +16,12 @@ func _get_drag_data(_at_position: Vector2) -> Variant:
 	
 	set_drag_preview(c)
 	return icon
+
+
+func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
+	return true
+	
+
+func _drop_data(at_position: Vector2, data: Variant) -> void:
+	icon.texture = data.texture
+	
