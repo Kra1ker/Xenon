@@ -58,6 +58,4 @@ func _unhandled_input(event: InputEvent) -> void:
 						slot.update_ui()
 						world_item.queue_free()
 						break
-
-					break
 					
