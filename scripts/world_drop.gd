@@ -1,5 +1,6 @@
 extends Control
 
+# Scene (lvl) to make items spawn in
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
 @onready var inventory_grid: GridContainer = get_parent().get_node(
 	"CanvasLayer/Inventory/Panel/MarginContainer/InventoryGridContainer"
@@ -12,8 +13,9 @@ func _can_drop_data(at_position: Vector2, data: Variant) -> bool:
 
 # Get items out (spawning instance in 2d world)
 func _drop_data(at_position: Vector2, data: Variant) -> void:
-	var node = WORLD_ITEM.instantiate()
+	var node = WORLD_ITEM.instantiate()  # Scene (lvl) to make items spawn in
 	
+	# SPAWNING items in the world (lvl)
 	node.set_meta("item_data", data.item)
 	node.get_node("Sprite2D").texture = data.item.icon
 	

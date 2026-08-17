@@ -9,6 +9,8 @@ func _ready () -> void:
 	spawn_items()
 	
 func spawn_items() -> void:
+	# Spawn items using resources. Details: check world_drop.gd 
+	# (drop datafunction)
 	var center = get_viewport_rect().size / 2.0
 	
 	for i in range(items_count):

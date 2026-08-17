@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://7yugu1ps4ggx"]
 
-[ext_resource type="Script" uid="uid://5btl41do3wpj" path="res://Scripts/cauldron_minigame.gd" id="1_x74j4"]
+[ext_resource type="Script" uid="uid://5btl41do3wpj" path="res://scripts/cauldron_minigame.gd" id="1_x74j4"]
 [ext_resource type="PackedScene" uid="uid://dieuwdtdcg868" path="res://scenes/inventory.tscn" id="2_x74j4"]
 
 [node name="Cauldron" type="Node2D" unique_id=1486811513]
@@ -16,7 +16,3 @@ mouse_filter = 2
 color = Color(0.20224464, 0.20224461, 0.20224461, 1)
 
 [node name="Inventory" parent="." unique_id=1120814163 instance=ExtResource("2_x74j4")]
-offset_left = 965.0
-offset_top = 960.0
-offset_right = 965.0
-offset_bottom = 960.0

@@ -1,6 +1,10 @@
 extends Panel
 
+# If you want to stop items from appearing in the inventory at the beginning
+# You must remove .tres refrences to Item property (inspector) in ItemSlot nodes
 @onready var icon: TextureRect = $Icon
+# Used for importing/spawning items in inventory or reimporting after dragging
+# them in from the world (setter method, uses .tres files).
 @export var item: ItemData :
 	set(value):
 		item = value
