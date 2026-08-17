@@ -18,10 +18,10 @@ func _ready() -> void:
 		sprite.play("idle")
 	target_position = global_position
 	
-func _unhandled_input(event: InputEvent) -> void:
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
-		target_position = get_global_mouse_position()
-		is_moving_to_target = true
+#func _unhandled_input(event: InputEvent) -> void:
+	#if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		#target_position = get_global_mouse_position()
+		#is_moving_to_target = true
 		
 func _physics_process(delta: float) -> void:
 	var input_x: float = 0.0

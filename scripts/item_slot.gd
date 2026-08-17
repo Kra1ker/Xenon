@@ -1,7 +1,11 @@
 extends Panel
 
 @onready var icon: TextureRect = $Icon
-@export var item: ItemData
+@export var item: ItemData :
+	set(value):
+		item = value
+		if is_node_ready() and item:
+			update_ui()
 
 
 func _ready() -> void:
@@ -11,9 +15,11 @@ func _ready() -> void:
 func update_ui() -> void:
 	if not item:
 		icon.texture = null
+		icon.hide()
 		return
 	
 	icon.texture = item.icon
+	icon.show()
 	tooltip_text = item.item_name
 
 
