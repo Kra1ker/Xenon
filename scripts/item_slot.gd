@@ -15,9 +15,11 @@ func _ready() -> void:
 func update_ui() -> void:
 	if not item:
 		icon.texture = null
+		icon.hide()
 		return
 	
 	icon.texture = item.icon
+	icon.show()
 	tooltip_text = item.item_name
 
 
