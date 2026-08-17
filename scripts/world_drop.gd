@@ -1,6 +1,9 @@
 extends Control
 
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
+@onready var inventory_grid: GridContainer = get_parent().get_node(
+	"CanvasLayer/Inventory/Panel/MarginContainer/InventoryGridContainer"
+	)
 
 
 func _can_drop_data(at_position: Vector2, data: Variant) -> bool:
@@ -46,10 +49,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			for result in results:
 				var collider = result["collider"]
 
-				if collider is RigidBody2D:
+				if collider is CharacterBody2D:
 					var world_item = collider
 
-					for slot in %InventoryGridContainer.get_children():
+					for slot in inventory_grid.get_children():
 						if slot.item:
 							continue
 
@@ -58,4 +61,3 @@ func _unhandled_input(event: InputEvent) -> void:
 						slot.update_ui()
 						world_item.queue_free()
 						break
-					

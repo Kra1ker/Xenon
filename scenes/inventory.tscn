@@ -53,20 +53,20 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="GridContainer" type="GridContainer" parent="Inventory/Panel/MarginContainer" unique_id=1627905439]
+[node name="InventoryGridContainer" type="GridContainer" parent="Inventory/Panel/MarginContainer" unique_id=1627905439]
 layout_mode = 2
 size_flags_vertical = 4
 theme_override_constants/h_separation = 20
 theme_override_constants/v_separation = 20
 columns = 5
 
-[node name="ItemSlot" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=605509181]
+[node name="ItemSlot" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=605509181]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 item = ExtResource("3_uae8j")
 
-[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot" unique_id=1663351478]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot" unique_id=1663351478]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -79,13 +79,13 @@ texture = ExtResource("1_pohso")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot2" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=1526670613]
+[node name="ItemSlot2" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=1526670613]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 item = ExtResource("5_s887n")
 
-[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot2" unique_id=1242110276]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot2" unique_id=1242110276]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -98,12 +98,12 @@ texture = ExtResource("3_5tt2m")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot3" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=1845966995]
+[node name="ItemSlot3" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=1845966995]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot3" unique_id=1670809189]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot3" unique_id=1670809189]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -115,12 +115,12 @@ grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot4" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=264123709]
+[node name="ItemSlot4" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=264123709]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot4" unique_id=428364899]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot4" unique_id=428364899]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1
@@ -132,12 +132,12 @@ grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemSlot5" type="Panel" parent="Inventory/Panel/MarginContainer/GridContainer" unique_id=565850267]
+[node name="ItemSlot5" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=565850267]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
 script = ExtResource("1_psafj")
 
-[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/GridContainer/ItemSlot5" unique_id=913767294]
+[node name="Icon" type="TextureRect" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot5" unique_id=913767294]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.1

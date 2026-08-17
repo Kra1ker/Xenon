@@ -35,4 +35,5 @@ offset_left = -829.0
 offset_top = -754.0
 offset_right = 2038.0
 offset_bottom = 847.0
+mouse_filter = 2
 script = ExtResource("3_w8frs")
