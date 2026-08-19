@@ -39,6 +39,15 @@ func _unhandled_input(event: InputEvent) -> void:
 			print("Pressed")
 
 			var cam := get_viewport().get_camera_2d()
+			# Debug
+			if cam == null:
+				print("NO CURRENT CAMERA!")
+				return
+
+			print("Current camera: ", cam)
+			print("Camera position: ", cam.global_position)
+			# Debug end
+
 			var space := cam.get_world_2d().direct_space_state
 
 			var param := PhysicsPointQueryParameters2D.new()
