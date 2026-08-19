@@ -11,9 +11,6 @@ func _ready () -> void:
 	camera.enabled = true
 	camera.make_current()
 	spawn_items()
-	# Debug
-	print("Level camera: ", $Camera2D)
-	print("Viewport camera: ", get_viewport().get_camera_2d())
 
 
 func spawn_items() -> void:
