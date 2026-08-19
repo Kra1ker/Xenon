@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://5btl41do3wpj" path="res://scripts/cauldron_minigame.gd" id="1_x74j4"]
 [ext_resource type="PackedScene" uid="uid://dieuwdtdcg868" path="res://scenes/inventory.tscn" id="2_x74j4"]
+[ext_resource type="PackedScene" uid="uid://dgtcqj01ynucl" path="res://scenes/world_drop_item.tscn" id="3_quaa6"]
 
 [node name="Cauldron" type="Node2D" unique_id=1486811513]
 script = ExtResource("1_x74j4")
@@ -16,3 +17,12 @@ mouse_filter = 2
 color = Color(0.20224464, 0.20224461, 0.20224461, 1)
 
 [node name="Inventory" parent="." unique_id=1120814163 instance=ExtResource("2_x74j4")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=435676029]
+position = Vector2(960, 536)
+
+[node name="WorldDropItem" parent="." unique_id=1660113513 instance=ExtResource("3_quaa6")]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 1943.0
+offset_bottom = 1107.0

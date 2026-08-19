@@ -4,10 +4,15 @@ var item_scene = preload("res://scenes/floating_banana.tscn")
 
 @export var items_count: int = 5
 @export var cauldron_radius: float = 200.0
+@onready var camera: Camera2D = $Camera2D
+
 
 func _ready () -> void:
+	camera.enabled = true
+	camera.make_current()
 	spawn_items()
-	
+
+
 func spawn_items() -> void:
 	# Spawn items using resources. Details: check world_drop.gd 
 	# (drop datafunction)
