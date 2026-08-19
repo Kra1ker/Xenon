@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dgtcqj01ynucl"]
+
+[ext_resource type="Script" uid="uid://d1ww1s15l6ijp" path="res://scripts/world_drop.gd" id="1_omqhr"]
+
+[node name="WorldDropItem" type="Control" unique_id=1660113513]
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_left = -829.0
+offset_top = -754.0
+offset_right = 2038.0
+offset_bottom = 847.0
+mouse_filter = 2
+script = ExtResource("1_omqhr")
