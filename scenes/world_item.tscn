@@ -1,10 +1,9 @@
 [gd_scene format=3 uid="uid://bba1rn5pflg44"]
 
-[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_8r7n1"]
+[ext_resource type="Texture2D" uid="uid://b0gqi2717fh5w" path="res://assets/sprites/items/pencil.png" id="1_8r7n1"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_olg7q"]
-radius = 182.0
-height = 604.0
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(310, -512, -286, 148, -442, 510, -118, 324, 478, -324, 476, -350, 396, -466)
 
 [node name="WorldItem" type="CharacterBody2D" unique_id=790498644]
 
@@ -16,4 +15,4 @@ texture = ExtResource("1_8r7n1")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=875388670]
 position = Vector2(3, -1)
 scale = Vector2(0.5, 0.5)
-shape = SubResource("CapsuleShape2D_olg7q")
+shape = SubResource("ConvexPolygonShape2D_k7chi")
