@@ -23,7 +23,7 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	data.item = null
 	node.global_position = Vector2(2, 1)
 	print("Droped out")
-
+	
 
 func _notification(what: int) -> void:
 	if what == Node.NOTIFICATION_DRAG_BEGIN:
@@ -37,20 +37,20 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			print("Pressed")
-
+			
 			var cam := get_viewport().get_camera_2d()
 			var space := cam.get_world_2d().direct_space_state
-
+			
 			var param := PhysicsPointQueryParameters2D.new()
 			param.position = cam.get_global_mouse_position()
 			param.collide_with_areas = true
 			param.collide_with_bodies = true
-
+			
 			var results := space.intersect_point(param)
-
+			
 			for result in results:
 				var collider = result["collider"]
-
+				
 				if collider is CharacterBody2D:
 					var world_item = collider
 					
