@@ -3,7 +3,7 @@ extends Control
 # Scene (lvl) to make items spawn in
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
 @onready var inventory_grid: GridContainer = get_parent().get_node(
-	"CanvasLayer/Inventory/Panel/MarginContainer/InventoryGridContainer"
+	"Inventory/Inventory/Panel/MarginContainer/InventoryGridContainer"
 	)
 
 
@@ -53,11 +53,12 @@ func _unhandled_input(event: InputEvent) -> void:
 
 				if collider is CharacterBody2D:
 					var world_item = collider
-
+					
+					# Seeks free slot to put item in it
 					for slot in inventory_grid.get_children():
 						if slot.item:
 							continue
-
+							
 						# Gets first empty slot
 						slot.item = world_item.get_meta("item_data")
 						slot.update_ui()

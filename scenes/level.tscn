@@ -10,7 +10,7 @@ size = Vector2(2077, 436)
 
 [node name="Main" type="Node2D" unique_id=1737159512]
 
-[node name="CanvasLayer" parent="." unique_id=1722406216 instance=ExtResource("2_w7c3h")]
+[node name="Inventory" parent="." unique_id=1722406216 instance=ExtResource("2_w7c3h")]
 
 [node name="Player" parent="." unique_id=1147158407 instance=ExtResource("1_u52ul")]
 position = Vector2(520, 274)
