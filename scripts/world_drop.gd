@@ -33,19 +33,23 @@ func _notification(what: int) -> void:
 		mouse_filter = Control.MOUSE_FILTER_IGNORE
 		
 
-# Get items back
+# Clicking on item
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			print("Pressed")
-			var results: Array = get_cursor_hits()
-			for result in results:
-				var collider = result["collider"]
-				
-				if collider is CharacterBody2D:
-					put_item_in_inventory(collider)
-					return
-					
+			put_item_in_inventory(get_world_item())
+			
+
+func get_world_item() -> CharacterBody2D:
+	for result in get_cursor_hits():
+		var collider = result["collider"]
+		
+		if collider is CharacterBody2D and collider.has_meta("item_data"):
+			return collider
+	
+	return null
+	
 
 func get_cursor_hits() -> Array:
 	"""
@@ -62,15 +66,14 @@ func get_cursor_hits() -> Array:
 	return space.intersect_point(param)
 	
 
-func is_collider():
-	pass
-	
-
-func put_item_in_inventory(world_item: CharacterBody2D) -> void:
+func put_item_in_inventory(world_item: CharacterBody2D) -> bool:
 	"""
 	Excepts: CharacterBody2D as parameter. Seeks free slot and puts the
-	target in it.
+	target in it. 
 	"""
+	if not world_item:
+		return false
+	
 	# Gets first empty slot
 	for slot in inventory_grid.get_children():
 		if slot.item:
@@ -79,4 +82,6 @@ func put_item_in_inventory(world_item: CharacterBody2D) -> void:
 		slot.item = world_item.get_meta("item_data")
 		slot.update_ui()
 		world_item.queue_free()
-		return
+		return true
+	
+	return false
