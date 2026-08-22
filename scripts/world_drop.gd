@@ -38,31 +38,45 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			print("Pressed")
-			
-			var cam := get_viewport().get_camera_2d()
-			var space := cam.get_world_2d().direct_space_state
-			
-			var param := PhysicsPointQueryParameters2D.new()
-			param.position = cam.get_global_mouse_position()
-			param.collide_with_areas = true
-			param.collide_with_bodies = true
-			
-			var results := space.intersect_point(param)
-			
+			var results: Array = get_cursor_hits()
 			for result in results:
 				var collider = result["collider"]
 				
 				if collider is CharacterBody2D:
-					var world_item = collider
+					put_item_in_inventory(collider)
+					return
 					
-					# Seeks free slot to put item in it
-					for slot in inventory_grid.get_children():
-						if slot.item:
-							continue
-							
-						# Gets first empty slot
-						slot.item = world_item.get_meta("item_data")
-						slot.update_ui()
-						world_item.queue_free()
-						
-						return
+
+func get_cursor_hits() -> Array:
+	"""
+	Checks what's under cursor. Returns a an Array with hits.
+	"""
+	var cam := get_viewport().get_camera_2d()
+	var space := cam.get_world_2d().direct_space_state
+	
+	var param := PhysicsPointQueryParameters2D.new()
+	param.position = cam.get_global_mouse_position()
+	param.collide_with_areas = true
+	param.collide_with_bodies = true
+	
+	return space.intersect_point(param)
+	
+
+func is_collider():
+	pass
+	
+
+func put_item_in_inventory(world_item: CharacterBody2D) -> void:
+	"""
+	Excepts: CharacterBody2D as parameter. Seeks free slot and puts the
+	target in it.
+	"""
+	# Gets first empty slot
+	for slot in inventory_grid.get_children():
+		if slot.item:
+			continue
+			
+		slot.item = world_item.get_meta("item_data")
+		slot.update_ui()
+		world_item.queue_free()
+		return
