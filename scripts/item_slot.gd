@@ -15,7 +15,7 @@ extends Panel
 func _ready() -> void:
 	update_ui()
 	
-	
+
 func update_ui() -> void:
 	if not item:
 		icon.texture = null
@@ -25,7 +25,7 @@ func update_ui() -> void:
 	icon.texture = item.icon
 	icon.show()
 	tooltip_text = item.item_name
-
+	
 
 func _get_drag_data(_at_position: Vector2) -> Variant:
 	if not item:
@@ -41,7 +41,7 @@ func _get_drag_data(_at_position: Vector2) -> Variant:
 	set_drag_preview(c)
 	icon.hide()
 	return self
-
+	
 
 func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
 	return true
