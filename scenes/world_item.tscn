@@ -2,18 +2,15 @@
 
 [ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_8r7n1"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_olg7q"]
-radius = 182.0
-height = 604.0
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_l3ke8"]
+points = PackedVector2Array(-530, 222, -346, 408, 468, 430, 538, 318, 378, -388, 306, -486)
 
 [node name="WorldItem" type="CharacterBody2D" unique_id=790498644]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=25142774]
-position = Vector2(0, 1)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_8r7n1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=875388670]
-position = Vector2(3, -1)
 scale = Vector2(0.5, 0.5)
-shape = SubResource("CapsuleShape2D_olg7q")
+shape = SubResource("ConvexPolygonShape2D_l3ke8")

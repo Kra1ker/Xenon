@@ -1,10 +1,15 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bvsfyvn4yh0jy"]
 
-[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_8k2qu"]
-[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_aggp2"]
+[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_ixkxx"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_ytuuf"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_ixkxx"]
+resource_name = "banana_item_collision"
+points = PackedVector2Array(-530, 222, -346, 408, 468, 430, 538, 318, 378, -388, 306, -486)
 
 [resource]
-script = ExtResource("1_8k2qu")
+script = ExtResource("2_ytuuf")
 item_name = "Banana"
-icon = ExtResource("1_aggp2")
+icon = ExtResource("1_ixkxx")
+collision_shape = SubResource("ConvexPolygonShape2D_ixkxx")
 metadata/_custom_type_script = "uid://ceqlm4xcv54mn"
