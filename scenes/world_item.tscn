@@ -8,11 +8,9 @@ points = PackedVector2Array(-336, 406, -310, 414, -282, 418, -238, 420, -104, 41
 [node name="WorldItem" type="CharacterBody2D" unique_id=790498644]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=25142774]
-position = Vector2(3, -1)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_8r7n1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=875388670]
-position = Vector2(3, -1)
 scale = Vector2(0.5, 0.5)
 shape = SubResource("ConvexPolygonShape2D_8r7n1")
