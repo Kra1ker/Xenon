@@ -49,6 +49,10 @@ func _on_item_caught(item_name: String) -> void:
 	print(item_name)
 
 func spawn_an_item(item_data: ItemData, position: Vector2) -> void:
+	"""
+	Tikimfox's varriant of spawning items. Feel free to copy it.
+	Items spawned this way will also work with the inventory system.
+	"""
 	var node = WORLD_ITEM.instantiate()
 
 	node.set_meta("item_data", item_data)
