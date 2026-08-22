@@ -1,7 +1,15 @@
 extends Node2D
 
 var item_scene = preload("res://scenes/floating_banana.tscn")
+var item_scene2 = preload("res://scenes/world_item.tscn")
+# TODO make item array in the scene inspector, in case there is going to
+# be much bigger amount of items
+const BANANA = preload("uid://bvsfyvn4yh0jy")
+const PENCIL = preload("uid://dt56lhnaqt2p2")
+const WORLD_ITEM = preload("uid://bba1rn5pflg44")
 
+
+@export var item: ItemData
 @export var items_count: int = 5
 @export var cauldron_radius: float = 200.0
 @onready var camera: Camera2D = $Camera2D
@@ -16,6 +24,15 @@ func _ready () -> void:
 func spawn_items() -> void:
 	# Spawn items using resources. Details: check world_drop.gd 
 	# (drop datafunction)
+	var r_max = 800
+	var r_min = 0
+	spawn_an_item(BANANA, 
+	Vector2(randi_range(r_min, r_max), randi_range(r_min, r_max))
+	)
+	spawn_an_item(PENCIL,
+	Vector2(randi_range(r_min, r_max), randi_range(r_min, r_max))
+	)
+	
 	var center = get_viewport_rect().size / 2.0
 	
 	for i in range(items_count):
@@ -32,3 +49,17 @@ func spawn_items() -> void:
 
 func _on_item_caught(item_name: String) -> void:
 	print(item_name)
+
+func spawn_an_item(item_data: ItemData, position: Vector2) -> void:
+	"""
+	Tikimfox's varriant of spawning items. Feel free to copy it.
+	Items spawned this way will also work with the inventory system.
+	"""
+	var node = WORLD_ITEM.instantiate()
+
+	node.set_meta("item_data", item_data)
+	node.get_node("Sprite2D").texture = item_data.icon
+	node.get_node("CollisionShape2D").shape = item_data.collision_shape
+
+	get_tree().current_scene.add_child(node)
+	node.global_position = position

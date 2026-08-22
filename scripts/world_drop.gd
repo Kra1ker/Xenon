@@ -64,4 +64,5 @@ func _unhandled_input(event: InputEvent) -> void:
 						slot.item = world_item.get_meta("item_data")
 						slot.update_ui()
 						world_item.queue_free()
-						break
+						
+						return
