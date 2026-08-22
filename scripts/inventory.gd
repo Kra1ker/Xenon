@@ -13,6 +13,9 @@ func _process(delta: float) -> void:
 
 var data_bak
 func _notification(what: int) -> void:
+	"""
+	Check mouse drag status.
+	"""
 	if what == Node.NOTIFICATION_DRAG_BEGIN:
 		on_drag_begin()
 	if what == Node.NOTIFICATION_DRAG_END:
@@ -20,10 +23,14 @@ func _notification(what: int) -> void:
 	
 
 func on_drag_begin() -> void:
+	"""Backs up ItemSlot so it can be restored later"""
 	data_bak = get_viewport().gui_get_drag_data()
 	
 
 func on_drag_end() -> void:
+	"""
+	Responsible for restoring ItemSlot in case the drag was not successful.
+	"""
 	if not is_drag_successful() and data_bak:
 		data_bak.icon.show()
 		data_bak = null
