@@ -1,13 +1,13 @@
 extends Node2D
 
-var item_scene = preload("res://scenes/floating_banana.tscn")
-var item_scene2 = preload("res://scenes/world_item.tscn")
 # TODO make item array in the scene inspector, in case there is going to
 # be much bigger amount of items
 const BANANA = preload("uid://bvsfyvn4yh0jy")
 const PENCIL = preload("uid://dt56lhnaqt2p2")
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
 
+var item_scene = preload("res://scenes/floating_banana.tscn")
+var item_scene2 = preload("res://scenes/world_item.tscn")
 
 @export var item: ItemData
 @export var items_count: int = 5
@@ -23,7 +23,6 @@ func _ready () -> void:
 
 func spawn_items() -> void:
 	# Spawn items using resources. Details: check world_drop.gd 
-	# (drop datafunction)
 	var r_max = 800
 	var r_min = 0
 	spawn_an_item(BANANA, 
@@ -46,15 +45,18 @@ func spawn_items() -> void:
 		
 		item.setup(center, start_angle)
 		item.item_caught.connect(_on_item_caught)
+		
 
 func _on_item_caught(item_name: String) -> void:
 	print(item_name)
+	
 
 func spawn_an_item(item_data: ItemData, position: Vector2) -> void:
 	"""
 	Tikimfox's varriant of spawning items. Feel free to copy it.
 	Items spawned this way will also work with the inventory system.
 	"""
+	
 	var node = WORLD_ITEM.instantiate()
 
 	node.set_meta("item_data", item_data)
