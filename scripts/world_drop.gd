@@ -18,6 +18,7 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	# SPAWNING items in the world (lvl)
 	node.set_meta("item_data", data.item)
 	node.get_node("Sprite2D").texture = data.item.icon
+	node.get_node("CollisionShape2D").shape = data.item.collision_shape
 	
 	get_tree().current_scene.add_child(node)
 	data.item = null
