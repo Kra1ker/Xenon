@@ -5,7 +5,7 @@
 
 [sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
 resource_name = "pencil_item_shape"
-points = PackedVector2Array(310, -512, -286, 148, -442, 510, -118, 324, 478, -324, 476, -350, 396, -466)
+points = PackedVector2Array(296, -466, -150, -40, -108, -34, 238, -338, 322, -376, 372, -384, 342, -452, 310, -472, 306, -464, 0, 0, 0, 0)
 
 [resource]
 script = ExtResource("2_q5hd2")
