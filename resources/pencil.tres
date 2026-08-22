@@ -3,13 +3,13 @@
 [ext_resource type="Texture2D" uid="uid://b0gqi2717fh5w" path="res://assets/sprites/items/pencil.png" id="1_boh2j"]
 [ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_q5hd2"]
 
-[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
-resource_name = "pencil_item_shape"
-points = PackedVector2Array(296, -466, -150, -40, -108, -34, 238, -338, 322, -376, 372, -384, 342, -452, 310, -472, 306, -464, 0, 0, 0, 0)
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_boh2j"]
+resource_name = "pencil_item_collision"
+points = PackedVector2Array(-432, 504, -280, 148, 312, -510, 406, -466, 496, -336, -112, 316)
 
 [resource]
 script = ExtResource("2_q5hd2")
 item_name = "Pencil"
 icon = ExtResource("1_boh2j")
-collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+collision_shape = SubResource("ConvexPolygonShape2D_boh2j")
 metadata/_custom_type_script = "uid://ceqlm4xcv54mn"
