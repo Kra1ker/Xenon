@@ -2,6 +2,8 @@ extends Node2D
 
 var item_scene = preload("res://scenes/floating_banana.tscn")
 var item_scene2 = preload("res://scenes/world_item.tscn")
+# TODO make item array in the scene inspector, in case there is going to
+# be much bigger amount of items
 const BANANA = preload("uid://bvsfyvn4yh0jy")
 const PENCIL = preload("uid://dt56lhnaqt2p2")
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
