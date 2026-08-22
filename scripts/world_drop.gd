@@ -1,7 +1,8 @@
 extends Control
 
-# Scene (lvl) to make items spawn in
-const WORLD_ITEM = preload("uid://bba1rn5pflg44")
+
+const WORLD_ITEM = preload("uid://bba1rn5pflg44")  # Base abstract scene to
+# load resources in (items)
 @onready var inventory_grid: GridContainer = get_parent().get_node(
 	"Inventory/Inventory/Panel/MarginContainer/InventoryGridContainer"
 	)
@@ -13,9 +14,9 @@ func _can_drop_data(at_position: Vector2, data: Variant) -> bool:
 
 # Get items out (spawning instance in 2d world)
 func _drop_data(at_position: Vector2, data: Variant) -> void:
-	var node = WORLD_ITEM.instantiate()  # Scene (lvl) to make items spawn in
+	var node = WORLD_ITEM.instantiate()
 	
-	# SPAWNING items in the world (lvl)
+	# Spawn an itemin the world (lvl)
 	node.set_meta("item_data", data.item)
 	node.get_node("Sprite2D").texture = data.item.icon
 	node.get_node("CollisionShape2D").shape = data.item.collision_shape
@@ -42,6 +43,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			
 
 func get_world_item() -> CharacterBody2D:
+	"""
+	Returns the collided WorldItem, in case mouse hits it. Retruns null, if no
+	approriate target is hit (clicked).
+	"""
 	for result in get_cursor_hits():
 		var collider = result["collider"]
 		
@@ -69,19 +74,21 @@ func get_cursor_hits() -> Array:
 func put_item_in_inventory(world_item: CharacterBody2D) -> bool:
 	"""
 	Excepts: CharacterBody2D as parameter. Seeks free slot and puts the
-	target in it. 
+	target in it. Returns true if item was succesfully picked up. Returns
+	false, in case the parameter was inappropriate or if the was not enough
+	space in the inventory.
 	"""
-	if not world_item:
+	if not world_item:  # Checks for appropriate parameter type
 		return false
 	
 	# Gets first empty slot
 	for slot in inventory_grid.get_children():
 		if slot.item:
 			continue
-			
-		slot.item = world_item.get_meta("item_data")
-		slot.update_ui()
-		world_item.queue_free()
+		
+		slot.item = world_item.get_meta("item_data")  # Puts item in
+		slot.update_ui()  # Update inventory UI
+		world_item.queue_free()  # Removes item instance in the 2D world(lvl)
 		return true
 	
 	return false
