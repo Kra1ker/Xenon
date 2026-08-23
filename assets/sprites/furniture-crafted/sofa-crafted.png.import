@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wmyd7s8x77pe"
-path="res://.godot/imported/clock.png-7bd8b92a3f97bb864b648f754a630557.ctex"
+uid="uid://1ig8jpq1v1qm"
+path="res://.godot/imported/sofa-crafted.png-c88ce9cdf750948564655393ce37bfcd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/clock.png"
-dest_files=["res://.godot/imported/clock.png-7bd8b92a3f97bb864b648f754a630557.ctex"]
+source_file="res://assets/sprites/furniture-crafted/sofa-crafted.png"
+dest_files=["res://.godot/imported/sofa-crafted.png-c88ce9cdf750948564655393ce37bfcd.ctex"]
 
 [params]
 

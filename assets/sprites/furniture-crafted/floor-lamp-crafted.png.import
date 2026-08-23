@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0phr1ap1rs3b"
-path="res://.godot/imported/wardrobe.png-ee278a7d40b1225caf0bce94dbcbbd0c.ctex"
+uid="uid://bgjaq45n0se2s"
+path="res://.godot/imported/floor-lamp-crafted.png-9d72ba8660a8fa574825573ab7b09471.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/wardrobe.png"
-dest_files=["res://.godot/imported/wardrobe.png-ee278a7d40b1225caf0bce94dbcbbd0c.ctex"]
+source_file="res://assets/sprites/furniture-crafted/floor-lamp-crafted.png"
+dest_files=["res://.godot/imported/floor-lamp-crafted.png-9d72ba8660a8fa574825573ab7b09471.ctex"]
 
 [params]
 

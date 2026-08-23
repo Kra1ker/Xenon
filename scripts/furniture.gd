@@ -27,7 +27,7 @@ func _ready() -> void:
 
 func set_visual(ready: bool) -> void:
 	if ready:
-		sprite_2d.texture = furniture.texture_ready
+		sprite_2d.texture = furniture.texture_crafted
 		sprite_2d.scale = Vector2.ONE * SCALE_CRAFTED
 		collision.polygon = furniture.collision_ready
 	else:

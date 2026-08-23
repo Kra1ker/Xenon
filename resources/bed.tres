@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://diyk73vumw71v"]
 
 [ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_trssd"]
-[ext_resource type="Texture2D" uid="uid://jdy6p6ibxs2s" path="res://assets/sprites/furniture-normal/bed.png" id="2_b1okl"]
+[ext_resource type="Texture2D" uid="uid://4l4yrws6u5hy" path="res://assets/sprites/furniture-crafted/bed-crafted.png" id="2_uirxg"]
 [ext_resource type="Texture2D" uid="uid://ddmo64harpjsp" path="res://assets/sprites/furniture-silhouette/bed-silhouette.png" id="3_uirxg"]
 
 [resource]
 script = ExtResource("1_trssd")
 item_name = "bed"
-texture_crafted = ExtResource("2_b1okl")
+texture_crafted = ExtResource("2_uirxg")
 texture_silhouette = ExtResource("3_uirxg")

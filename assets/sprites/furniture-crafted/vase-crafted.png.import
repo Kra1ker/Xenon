@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c71gf5hue07l7"
-path="res://.godot/imported/wall-carpet-sweater.png-ceeaf64bbdcdc1ffe75331a0031b8ffb.ctex"
+uid="uid://cxq31dy6wf53x"
+path="res://.godot/imported/vase-crafted.png-de2f2f37740eb6cdd8d771f630fcaa1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/wall-carpet-sweater.png"
-dest_files=["res://.godot/imported/wall-carpet-sweater.png-ceeaf64bbdcdc1ffe75331a0031b8ffb.ctex"]
+source_file="res://assets/sprites/furniture-crafted/vase-crafted.png"
+dest_files=["res://.godot/imported/vase-crafted.png-de2f2f37740eb6cdd8d771f630fcaa1d.ctex"]
 
 [params]
 

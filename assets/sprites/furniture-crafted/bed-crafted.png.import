@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxisurtfxcuxa"
-path="res://.godot/imported/round-table.png-7a302a46d1a4ef75d8116394c2f271e7.ctex"
+uid="uid://4l4yrws6u5hy"
+path="res://.godot/imported/bed-crafted.png-0bb1aaeb23114f3b72594c91fc026cf8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/round-table.png"
-dest_files=["res://.godot/imported/round-table.png-7a302a46d1a4ef75d8116394c2f271e7.ctex"]
+source_file="res://assets/sprites/furniture-crafted/bed-crafted.png"
+dest_files=["res://.godot/imported/bed-crafted.png-0bb1aaeb23114f3b72594c91fc026cf8.ctex"]
 
 [params]
 

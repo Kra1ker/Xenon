@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dppjjrmdm1cd8"
-path="res://.godot/imported/shelves.png-b91deed7e2d6b7057a443dfb54dbc8ed.ctex"
+uid="uid://7bh2agstf0wf"
+path="res://.godot/imported/mirror-crafted.png-eb3d005cf0febc76b8466246f5067f77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/shelves.png"
-dest_files=["res://.godot/imported/shelves.png-b91deed7e2d6b7057a443dfb54dbc8ed.ctex"]
+source_file="res://assets/sprites/furniture-crafted/mirror-crafted.png"
+dest_files=["res://.godot/imported/mirror-crafted.png-eb3d005cf0febc76b8466246f5067f77.ctex"]
 
 [params]
 

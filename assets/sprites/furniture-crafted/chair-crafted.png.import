@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpoylurq2eyrx"
-path="res://.godot/imported/fridge.png-0f611b903e91fba03c8de02fa816aa96.ctex"
+uid="uid://cxiv6ojb8idwl"
+path="res://.godot/imported/chair-crafted.png-e0d376c076f9fcb1b0fc0f1b1889c9f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/fridge.png"
-dest_files=["res://.godot/imported/fridge.png-0f611b903e91fba03c8de02fa816aa96.ctex"]
+source_file="res://assets/sprites/furniture-crafted/chair-crafted.png"
+dest_files=["res://.godot/imported/chair-crafted.png-e0d376c076f9fcb1b0fc0f1b1889c9f1.ctex"]
 
 [params]
 

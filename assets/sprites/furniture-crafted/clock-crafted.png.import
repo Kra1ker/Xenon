@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://n4af7icks520"
-path="res://.godot/imported/floor-lamp.png-96184df57738583aece76d827fac80b7.ctex"
+uid="uid://dyud0rm17p48l"
+path="res://.godot/imported/clock-crafted.png-0b2464926d2f1e381875643ae2f6ba02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/floor-lamp.png"
-dest_files=["res://.godot/imported/floor-lamp.png-96184df57738583aece76d827fac80b7.ctex"]
+source_file="res://assets/sprites/furniture-crafted/clock-crafted.png"
+dest_files=["res://.godot/imported/clock-crafted.png-0b2464926d2f1e381875643ae2f6ba02.ctex"]
 
 [params]
 
