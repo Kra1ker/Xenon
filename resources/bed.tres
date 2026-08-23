@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://diyk73vumw71v"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_trssd"]
+[ext_resource type="Texture2D" uid="uid://jdy6p6ibxs2s" path="res://assets/sprites/furniture-normal/bed.png" id="2_b1okl"]
+
+[sub_resource type="ConcavePolygonShape2D" id="ConcavePolygonShape2D_uouto"]
+segments = PackedVector2Array(8, -352, -80, -376, -256, -400, -400, -376, -504, -328, -520, -296, -504, -240, -520, -152, -536, -24, -552, -8, -560, 72, -496, 128, -440, 136, -392, 144, -336, 144, -344, 168, -368, 184, -400, 184, -448, 184, -464, 200, -456, 240, -440, 248, -400, 248, -368, 264, -360, 272, -312, 160, -288, 168, -280, 192, -264, 240, -208, 288, -160, 344, -88, 384, -16, 400, 64, 400, 200, 392, 440, 336, 512, 304, 552, 280, 560, 160, 544, 144, 552, 96, 512, 32, 448, -8, 376, -40, 304, -64, 224, -48, 176, -64, 224, -104, 240, -128, 248, -160, 224, -160, 192, -160, 160, -144, 120, -232, 48, -256, 48, -304)
+
+[resource]
+script = ExtResource("1_trssd")
+item_name = "bed"
+texture = ExtResource("2_b1okl")
+collision_shape = SubResource("ConcavePolygonShape2D_uouto")
