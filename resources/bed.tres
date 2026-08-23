@@ -7,5 +7,5 @@
 [resource]
 script = ExtResource("1_trssd")
 item_name = "bed"
-texture_ready = ExtResource("2_b1okl")
+texture_crafted = ExtResource("2_b1okl")
 texture_silhouette = ExtResource("3_uirxg")

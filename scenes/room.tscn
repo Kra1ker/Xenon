@@ -10,7 +10,6 @@
 
 [node name="bed" parent="." unique_id=1506207838 instance=ExtResource("1_jxe34")]
 position = Vector2(1237, 147)
-scale = Vector2(6, 6)
 
 [node name="Inventory" parent="." unique_id=1722406216 instance=ExtResource("1_14vil")]
 
