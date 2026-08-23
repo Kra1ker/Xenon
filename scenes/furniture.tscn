@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://j0pk4ey1nccp"]
+
+[ext_resource type="Texture2D" uid="uid://jdy6p6ibxs2s" path="res://assets/sprites/furniture-normal/bed.png" id="1_uouto"]
+
+[node name="Furniture" type="StaticBody2D" unique_id=1506207838]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=347909173]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_uouto")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1524212238]
+polygon = PackedVector2Array(8, -352, -80, -376, -256, -400, -400, -376, -504, -328, -520, -296, -504, -240, -520, -152, -536, -24, -552, -8, -560, 72, -496, 128, -440, 136, -392, 144, -336, 144, -344, 168, -368, 184, -400, 184, -448, 184, -464, 200, -456, 240, -440, 248, -400, 248, -368, 264, -360, 272, -312, 160, -288, 168, -280, 192, -264, 240, -208, 288, -160, 344, -88, 384, -16, 400, 64, 400, 200, 392, 440, 336, 512, 304, 552, 280, 560, 160, 544, 144, 552, 96, 512, 32, 448, -8, 376, -40, 304, -64, 224, -48, 176, -64, 224, -104, 240, -128, 248, -160, 224, -160, 192, -160, 160, -144, 120, -232, 48, -256, 48, -304)
