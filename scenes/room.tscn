@@ -9,8 +9,8 @@
 [node name="Main" type="Node2D" unique_id=1737159512]
 
 [node name="bed" parent="." unique_id=1506207838 instance=ExtResource("1_jxe34")]
-position = Vector2(2109, -133.00002)
-scale = Vector2(0.9, 0.9)
+position = Vector2(1237, 147)
+scale = Vector2(6, 6)
 
 [node name="Inventory" parent="." unique_id=1722406216 instance=ExtResource("1_14vil")]
 
@@ -18,6 +18,7 @@ scale = Vector2(0.9, 0.9)
 position = Vector2(520, 274)
 
 [node name="WorldDropItem" parent="." unique_id=1660113513 instance=ExtResource("3_jn645")]
+visible = false
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1444752579]
 stream = ExtResource("4_qvc4m")
