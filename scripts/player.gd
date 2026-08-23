@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 @export var speed: float = 300.0
-@export var bounce_height: float = 12.0
-@export var bounce_speed: float = 18.0
+@export var bounce_height: float = 0.0
+@export var bounce_speed: float = 0.0
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 
