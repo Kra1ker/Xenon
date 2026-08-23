@@ -8,7 +8,7 @@
 
 [node name="Main" type="Node2D" unique_id=1737159512]
 
-[node name="Furniture" parent="." unique_id=1506207838 instance=ExtResource("1_jxe34")]
+[node name="bed" parent="." unique_id=1506207838 instance=ExtResource("1_jxe34")]
 position = Vector2(2109, -133.00002)
 scale = Vector2(0.9, 0.9)
 
