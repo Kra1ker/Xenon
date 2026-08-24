@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://j0pk4ey1nccp"]
 
 [ext_resource type="Script" uid="uid://o3u0sv7iq6sx" path="res://scripts/furniture.gd" id="1_uj4jp"]
-[ext_resource type="Resource" uid="uid://diyk73vumw71v" path="res://resources/bed.tres" id="2_uj4jp"]
+[ext_resource type="Resource" uid="uid://diyk73vumw71v" path="res://resources/furniture/bed.tres" id="2_uj4jp"]
 [ext_resource type="Texture2D" uid="uid://ddmo64harpjsp" path="res://assets/sprites/furniture-silhouette/bed-silhouette.png" id="3_yxmve"]
 
 [node name="Furniture" type="StaticBody2D" unique_id=1506207838]
