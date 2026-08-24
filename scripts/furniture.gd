@@ -29,7 +29,7 @@ func set_visual(ready: bool) -> void:
 	if ready:
 		sprite_2d.texture = furniture.texture_crafted
 		sprite_2d.scale = Vector2.ONE * SCALE_CRAFTED
-		collision.polygon = furniture.collision_ready
+		collision.polygon = furniture.collision_crafted
 	else:
 		sprite_2d.texture = furniture.texture_silhouette
 		sprite_2d.scale = Vector2.ONE * SCALE_SILHOUETTE
