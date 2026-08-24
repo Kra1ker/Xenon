@@ -4,6 +4,7 @@ extends Node2D
 # be much bigger amount of items
 const BANANA = preload("uid://bvsfyvn4yh0jy")
 const PENCIL = preload("uid://dt56lhnaqt2p2")
+const BOOKS = preload("uid://brjb6vcmk4y5s")
 const WORLD_ITEM = preload("uid://bba1rn5pflg44")
 
 var item_scene = preload("res://scenes/floating_banana.tscn")
@@ -29,6 +30,9 @@ func spawn_items() -> void:
 	Vector2(randi_range(r_min, r_max), randi_range(r_min, r_max))
 	)
 	spawn_an_item(PENCIL,
+	Vector2(randi_range(r_min, r_max), randi_range(r_min, r_max))
+	)
+	spawn_an_item(BOOKS,
 	Vector2(randi_range(r_min, r_max), randi_range(r_min, r_max))
 	)
 	

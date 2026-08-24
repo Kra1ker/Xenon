@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://brjb6vcmk4y5s"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_20mev"]
+[ext_resource type="Texture2D" uid="uid://068bab83ypw2" path="res://assets/sprites/items/books.png" id="1_dre41"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_eoy2r"]
+points = PackedVector2Array(31, -221, -16, -210, -117, -205, -140, -202, -170, -196, -177, -194, -180, -190, -183, -177, -167, -123, -160, -93, -154, -59, -155, -51, -157, -45, -159, -37, -161, -31, -166, -25, -174, -12, -214, 49, -217, 51, -224, 61, -227, 67, -229, 73, -230, 81, -228, 86, -226, 89, -223, 92, -220, 95, -205, 103, -186, 112, -93, 147, -85, 152, -27, 177, -9, 181, 35, 233, 39, 238, 44, 240, 50, 241, 55, 239, 57, 237, 167, 112, 179, 93, 192, 75, 204, 58, 208, 44, 218, 27, 236, -18, 246, -50, 251, -68, 250, -78, 238, -88, 236, -91, 255, -124, 255, -131, 251, -134, 239, -138, 220, -142, 130, -157, 104, -161, 72, -163, 70, -186, 68, -197, 65, -206, 57, -213, 41, -221, 33, -222)
+
+[resource]
+script = ExtResource("1_20mev")
+item_name = "Books"
+icon = ExtResource("1_dre41")
+collision_shape = SubResource("ConvexPolygonShape2D_eoy2r")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"
