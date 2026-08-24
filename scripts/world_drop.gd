@@ -1,3 +1,11 @@
+"""
+Control responsible for drop and pickup items. The appropriate script is
+attached to it.
+By Tikimfox
+
+TODO: make it follow player camera and/or extend to the whole lvl so
+items can be dropped anywhere (applicable to the room scene)
+"""
 extends Control
 
 

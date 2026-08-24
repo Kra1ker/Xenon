@@ -1,12 +1,17 @@
 [gd_scene format=3 uid="uid://j0pk4ey1nccp"]
 
-[ext_resource type="Texture2D" uid="uid://jdy6p6ibxs2s" path="res://assets/sprites/furniture-normal/bed.png" id="1_uouto"]
+[ext_resource type="Script" uid="uid://o3u0sv7iq6sx" path="res://scripts/furniture.gd" id="1_uj4jp"]
+[ext_resource type="Resource" uid="uid://diyk73vumw71v" path="res://resources/bed.tres" id="2_uj4jp"]
+[ext_resource type="Texture2D" uid="uid://ddmo64harpjsp" path="res://assets/sprites/furniture-silhouette/bed-silhouette.png" id="3_yxmve"]
 
 [node name="Furniture" type="StaticBody2D" unique_id=1506207838]
+script = ExtResource("1_uj4jp")
+furniture = ExtResource("2_uj4jp")
+is_crafted = false
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=347909173]
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("1_uouto")
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("3_yxmve")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1524212238]
-polygon = PackedVector2Array(8, -352, -80, -376, -256, -400, -400, -376, -504, -328, -520, -296, -504, -240, -520, -152, -536, -24, -552, -8, -560, 72, -496, 128, -440, 136, -392, 144, -336, 144, -344, 168, -368, 184, -400, 184, -448, 184, -464, 200, -456, 240, -440, 248, -400, 248, -368, 264, -360, 272, -312, 160, -288, 168, -280, 192, -264, 240, -208, 288, -160, 344, -88, 384, -16, 400, 64, 400, 200, 392, 440, 336, 512, 304, 552, 280, 560, 160, 544, 144, 552, 96, 512, 32, 448, -8, 376, -40, 304, -64, 224, -48, 176, -64, 224, -104, 240, -128, 248, -160, 224, -160, 192, -160, 160, -144, 120, -232, 48, -256, 48, -304)
+polygon = PackedVector2Array(-326, -305, -329, -358, -338, -367, -350, -370, -360, -371, -369, -368, -375, -362, -377, 59, -368, 67, -352, 67, -339, 66, -329, 60, -316, 57, -134, 343, -132, 395, -122, 399, -113, 401, -99, 401, -88, 397, -82, 393, -83, 375, -76, 368, 345, 372, 347, 393, 355, 395, 368, 400, 375, 401, 388, 397, 398, 394, 397, 21, 392, 14, 380, 10, 369, 9, 361, 9, 352, 14, 345, 20, 345, 43, 209, -102, 209, -119, 207, -137, 202, -162, 191, -193, 180, -213, 166, -227, 156, -231, 153, -358, 143, -365, 136, -371, 128, -372, 117, -369, 109, -366, 103, -360, 103, -306, 101, -304, -326, -304)

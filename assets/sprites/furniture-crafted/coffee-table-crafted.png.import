@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckbtega5qrecw"
-path="res://.godot/imported/plant.png-7d8f3ce3711ef70b8c221b8b8cbce3e0.ctex"
+uid="uid://cv7rwxoawav7h"
+path="res://.godot/imported/coffee-table-crafted.png-78f00ceeef859432908903645682b9e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/plant.png"
-dest_files=["res://.godot/imported/plant.png-7d8f3ce3711ef70b8c221b8b8cbce3e0.ctex"]
+source_file="res://assets/sprites/furniture-crafted/coffee-table-crafted.png"
+dest_files=["res://.godot/imported/coffee-table-crafted.png-78f00ceeef859432908903645682b9e0.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dppjjrmdm1cd8"
-path="res://.godot/imported/shelves.png-b91deed7e2d6b7057a443dfb54dbc8ed.ctex"
+uid="uid://1ig8jpq1v1qm"
+path="res://.godot/imported/sofa-crafted.png-c88ce9cdf750948564655393ce37bfcd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-normal/shelves.png"
-dest_files=["res://.godot/imported/shelves.png-b91deed7e2d6b7057a443dfb54dbc8ed.ctex"]
+source_file="res://assets/sprites/furniture-crafted/sofa-crafted.png"
+dest_files=["res://.godot/imported/sofa-crafted.png-c88ce9cdf750948564655393ce37bfcd.ctex"]
 
 [params]
 
