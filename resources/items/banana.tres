@@ -1,15 +1,16 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bvsfyvn4yh0jy"]
 
-[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_ixkxx"]
-[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_ytuuf"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_ymkv2"]
 
-[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_ixkxx"]
-resource_name = "banana_item_collision"
-points = PackedVector2Array(-530, 222, -346, 408, 468, 430, 538, 318, 378, -388, 306, -486)
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-41, -113, -81, -25, -101, -3, -171, 82, -200, 94, -254, 109, -275, 113, -245, 142, -210, 142, -158, 138, -114, 128, -83, 117, -69, 115, -130, 155, -155, 168, -182, 191, -138, 212, -96, 204, -75, 204, -41, 204, -8, 191, 4, 139, 19, 127, 41, 137, 88, 155, 137, 175, 177, 197, 222, 223, 263, 201, 274, 185, 271, 157, 260, 142, 249, 133, 228, 128, 213, 150, 180, 155, 158, 133, 125, 80, 89, 50, 77, -17, 97, -114, 129, -179, 181, -183, 192, -201, 184, -228, 148, -250, 119, -253, 114, -202, 100, -184, 67, -165, 25, -157, -1, -149, -20, -135)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s130s"]
+load_path = "res://.godot/imported/banana.png-3216591ecd68929f23ca02ab8c30523a.ctex"
 
 [resource]
-script = ExtResource("2_ytuuf")
+script = ExtResource("1_ymkv2")
 item_name = "Banana"
-icon = ExtResource("1_ixkxx")
-collision_shape = SubResource("ConvexPolygonShape2D_ixkxx")
+icon = SubResource("CompressedTexture2D_s130s")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
 metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

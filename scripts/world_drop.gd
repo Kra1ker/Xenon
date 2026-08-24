@@ -27,7 +27,7 @@ func _drop_data(at_position: Vector2, data: Variant) -> void:
 	# Spawn an itemin the world (lvl)
 	node.set_meta("item_data", data.item)
 	node.get_node("Sprite2D").texture = data.item.icon
-	node.get_node("CollisionShape2D").shape = data.item.collision_shape
+	node.get_node("CollisionPolygon2D").polygon = data.item.collision_shape.points
 	
 	get_tree().current_scene.add_child(node)
 	data.item = null

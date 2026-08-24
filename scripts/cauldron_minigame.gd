@@ -61,7 +61,7 @@ func spawn_an_item(item_data: ItemData, position: Vector2) -> void:
 
 	node.set_meta("item_data", item_data)
 	node.get_node("Sprite2D").texture = item_data.icon
-	node.get_node("CollisionShape2D").shape = item_data.collision_shape
+	node.get_node("CollisionPolygon2D").polygon = item_data.collision_shape.points
 
 	get_tree().current_scene.add_child(node)
 	node.global_position = position
