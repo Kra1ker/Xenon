@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfk308dax37b7"
-path="res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"
+uid="uid://bw7cuo3okno5f"
+path="res://.godot/imported/air-freshener.png-66cfb8326b86abc1d646dd59d7e195ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/items/nail.png"
-dest_files=["res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"]
+source_file="res://assets/sprites/items/air-freshener.png"
+dest_files=["res://.godot/imported/air-freshener.png-66cfb8326b86abc1d646dd59d7e195ff.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfk308dax37b7"
-path="res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"
+uid="uid://dk1x5u5vei135"
+path="res://.godot/imported/needle-pad.png-4b22c27bb3fab4391049f3716d079c77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/items/nail.png"
-dest_files=["res://.godot/imported/nail.png-77853978d11ff6300fab969904d4f4c9.ctex"]
+source_file="res://assets/sprites/items/needle-pad.png"
+dest_files=["res://.godot/imported/needle-pad.png-4b22c27bb3fab4391049f3716d079c77.ctex"]
 
 [params]
 
