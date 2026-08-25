@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dpm05ggctyf1l"]
+
+[ext_resource type="Texture2D" uid="uid://dqsrqmbgibkqk" path="res://assets/sprites/items/cup.png" id="1_ja2u6"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_7y61o"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_eoy2r"]
+points = PackedVector2Array(-135, 27, -131, 106, -126, 122, -122, 130, -107, 142, -68, 155, -19, 166, 29, 170, 66, 172, 107, 171, 156, 165, 192, 161, 232, 147, 255, 133, 258, 101, 256, 91, 256, -43, 252, -45, 245, -45, 222, -39, 217, -44, 207, -46, 198, -45, 174, -42, 167, -43, 148, -59, 139, -63, 116, -62, 83, -49, 61, -43, 46, -46, 28, -49, 6, -60, -16, -70, -33, -74, -46, -71, -64, -55, -80, -44, -89, -45, -127, -55, -134, -51, -135, -29, -147, -25, -160, -25, -168, -27, -181, -37, -191, -46, -204, -66, -209, -100, -212, -102, -218, -129, -226, -135, -234, -133, -260, -118, -265, -103, -264, -87, -257, -65, -246, -40, -233, -19, -214, 2, -198, 12, -186, 16, -178, 20, -168, 24, -156, 27, -145, 28)
+
+[resource]
+script = ExtResource("2_7y61o")
+item_name = "Cup"
+icon = ExtResource("1_ja2u6")
+collision_shape = SubResource("ConvexPolygonShape2D_eoy2r")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

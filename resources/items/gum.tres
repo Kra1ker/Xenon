@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://csfjd4dqqfwdd"]
+
+[ext_resource type="Texture2D" uid="uid://cvlqtd07ltcn7" path="res://assets/sprites/items/gum.png" id="1_35o4a"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_yoew5"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(2, -207, -10, -203, -24, -188, -75, -145, -101, -139, -120, -127, -136, -104, -144, -85, -142, -54, -136, -31, -165, -25, -181, -19, -189, -11, -202, 8, -213, 42, -224, 63, -225, 82, -220, 104, -207, 123, -189, 141, -161, 153, -142, 157, -105, 156, -92, 149, -85, 139, -81, 151, -74, 165, -54, 180, -33, 184, -2, 183, 24, 183, 44, 186, 65, 183, 83, 180, 103, 171, 117, 165, 146, 164, 166, 148, 181, 129, 194, 92, 199, 61, 195, 27, 184, 4, 173, -6, 172, -17, 161, -37, 138, -62, 124, -90, 114, -133, 104, -159, 92, -175, 66, -190, 36, -203, 15, -209)
+
+[resource]
+script = ExtResource("1_yoew5")
+item_name = "Gum"
+icon = ExtResource("1_35o4a")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

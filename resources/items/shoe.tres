@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cb3haf8u4eub"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_bpp6t"]
+[ext_resource type="Texture2D" uid="uid://y3atfhfy5ruu" path="res://assets/sprites/items/shoe.png" id="1_gs51p"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-269, -61, -261, -3, -268, 35, -264, 39, -258, 65, -254, 80, -256, 89, -254, 103, -246, 123, -234, 134, -218, 134, -202, 125, -194, 134, -185, 141, -177, 147, -165, 147, -152, 145, -140, 140, -139, 133, -143, 128, -155, 122, -165, 112, -131, 118, -106, 118, -93, 113, -85, 106, -76, 95, -7, 121, 32, 133, 80, 141, 104, 139, 128, 135, 164, 129, 186, 123, 209, 114, 226, 102, 243, 88, 256, 68, 259, 53, 255, 36, 243, 27, 262, 21, 269, 14, 268, -3, 267, -24, 267, -46, 260, -68, 247, -93, 221, -121, 191, -138, 162, -145, 119, -144, 91, -135, 63, -121, 42, -107, 23, -90, 18, -98, 7, -104, 17, -114, 36, -124, 45, -136, 43, -146, 27, -156, -6, -161, -29, -160, -50, -153, -65, -143, -81, -131, -85, -125, -103, -122, -122, -117, -139, -107, -144, -103, -145, -94, -143, -84, -153, -85, -177, -86, -196, -86, -218, -84, -236, -80, -252, -76, -266, -68)
+
+[resource]
+script = ExtResource("1_bpp6t")
+item_name = "Shoe"
+icon = ExtResource("1_gs51p")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

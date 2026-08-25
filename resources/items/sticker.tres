@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://be52e67mkyvy1"]
+
+[ext_resource type="Texture2D" uid="uid://ct5dk8i2vyuy4" path="res://assets/sprites/items/sticker.png" id="1_3ariv"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_qvif2"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-127, -201, -95, -214, -53, -220, -26, -221, -7, -219, 9, -216, 25, -211, 50, -200, 98, -178, 140, -152, 169, -128, 193, -105, 210, -82, 229, -44, 240, -12, 244, 15, 244, 42, 231, 82, 214, 114, 192, 148, 152, 187, 106, 217, 49, 232, -17, 235, -75, 221, -121, 195, -157, 169, -185, 142, -208, 109, -226, 74, -239, 33, -242, -3, -239, -44, -229, -85, -213, -120, -188, -152, -164, -176)
+
+[resource]
+script = ExtResource("1_qvif2")
+item_name = "Sticker"
+icon = ExtResource("1_3ariv")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

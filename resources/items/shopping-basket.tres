@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cl3kx2sid2lyb"]
+
+[ext_resource type="Texture2D" uid="uid://77ylyff4ixhy" path="res://assets/sprites/items/shopping-basket.png" id="1_51d1a"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_ij1lc"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-243, -107, -169, -147, -122, -150, -39, -148, -6, -146, 32, -145, 93, -143, 127, -143, 180, -141, 192, -139, 202, -133, 247, -95, 249, -86, 250, -72, 249, -64, 248, -60, 242, -60, 224, -56, 224, -29, 207, 119, 209, 129, 208, 140, 203, 152, 199, 156, 119, 160, 27, 160, -65, 159, -92, 156, -108, 157, -130, 157, -155, 155, -181, 152, -194, 147, -197, 137, -206, 79, -218, -4, -225, -56, -238, -57, -243, -63, -247, -81, -247, -97)
+
+[resource]
+script = ExtResource("1_ij1lc")
+item_name = "Shopping-basket"
+icon = ExtResource("1_51d1a")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c5mhahrfn33kk"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_4g8gy"]
+[ext_resource type="Texture2D" uid="uid://dfk308dax37b7" path="res://assets/sprites/items/nail.png" id="1_lreta"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-203, 255, -122, 170, -33, 94, -12, 75, -9, 58, -17, 28, -18, -5, -11, -17, 44, -47, 61, -69, 42, -107, 43, -124, 53, -140, 32, -166, 23, -186, 23, -206, 34, -236, 57, -248, 84, -251, 104, -248, 125, -239, 150, -227, 181, -203, 203, -183, 223, -156, 233, -128, 218, -92, 200, -86, 159, -86, 117, -94, 127, -32, 65, -8, 44, 7, 38, 51, 36, 105, 30, 117)
+
+[resource]
+script = ExtResource("1_4g8gy")
+item_name = "Nail"
+icon = ExtResource("1_lreta")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

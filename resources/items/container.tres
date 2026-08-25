@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://76qc4ikmh6la"]
+
+[ext_resource type="Texture2D" uid="uid://dwaf81k0rs5ds" path="res://assets/sprites/items/blanket.png" id="1_rugo7"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_sm5nu"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_fjwcu"]
+points = PackedVector2Array(-250, -71, -263, -58, -263, -37, -256, -17, -243, 3, -227, 61, -217, 82, -184, 127, -171, 135, -161, 147, -141, 155, -121, 156, -80, 150, 31, 129, 138, 104, 217, 84, 229, 70, 235, 56, 235, 44, 237, 32, 236, 19, 250, 25, 254, 23, 257, 17, 259, 10, 259, -40, 243, -67, 221, -91, 193, -114, 171, -125, 162, -131, 145, -133, 129, -133, 54, -127, 19, -120, -48, -113, -113, -101, -197, -84, -225, -81, -243, -76)
+
+[resource]
+script = ExtResource("2_sm5nu")
+item_name = "Blanket"
+icon = ExtResource("1_rugo7")
+collision_shape = SubResource("ConvexPolygonShape2D_fjwcu")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

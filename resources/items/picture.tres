@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://db13767wfpbi8"]
+
+[ext_resource type="Texture2D" uid="uid://bio7ewss1bjgv" path="res://assets/sprites/items/picture.png" id="1_pqt8w"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_vbqqh"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-250, -117, -157, -133, -121, -81, -111, -123, -95, -138, -35, -158, 30, -173, 60, -177, 87, -185, 117, -176, 162, -145, 202, -110, 216, -70, 227, -4, 240, 52, 256, 89, 236, 99, 143, 113, 132, 106, 122, 91, 107, 122, -14, 148, -129, 191, -135, 183, -168, 87, -228, -91)
+
+[resource]
+script = ExtResource("1_vbqqh")
+item_name = "Picture"
+icon = ExtResource("1_pqt8w")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

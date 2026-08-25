@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://40we3qna3iet"]
+
+[ext_resource type="Texture2D" uid="uid://b7fibl8amc2vb" path="res://assets/sprites/items/bottle.png" id="1_w00u6"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="2_wf5pd"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_fjwcu"]
+points = PackedVector2Array(-201, -214, -169, -237, -129, -257, -110, -263, -95, -265, -89, -262, -84, -261, -76, -254, -66, -231, -65, -226, -61, -223, -51, -222, -12, -229, 3, -230, 15, -228, 28, -219, 33, -209, 43, -211, 55, -215, 62, -217, 66, -214, 81, -140, 82, -131, 93, -105, 97, -94, 98, -79, 98, -71, 98, -59, 103, -53, 119, -44, 138, -35, 156, -21, 174, 5, 194, 37, 209, 64, 214, 72, 231, 101, 237, 122, 234, 137, 230, 149, 218, 163, 197, 175, 168, 184, 146, 190, 103, 227, 91, 242, 77, 254, 58, 261, 41, 263, 27, 259, 13, 255, -1, 246, -21, 225, -44, 196, -61, 169, -73, 146, -85, 117, -88, 101, -89, 65, -111, 49, -123, 45, -134, 37, -165, -4, -195, -50, -206, -75, -208, -107, -200, -127, -186, -145, -178, -157, -178, -162, -186, -165, -199, -186, -206, -207)
+
+[resource]
+script = ExtResource("2_wf5pd")
+item_name = "Bottle"
+icon = ExtResource("1_w00u6")
+collision_shape = SubResource("ConvexPolygonShape2D_fjwcu")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

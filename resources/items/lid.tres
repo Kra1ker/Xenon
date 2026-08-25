@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d3n4sgjpkikyu"]
+
+[ext_resource type="Texture2D" uid="uid://d2atyfm620yl" path="res://assets/sprites/items/lid.png" id="1_1a0n8"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_8bgc3"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-89, -169, -38, -195, 25, -215, 79, -222, 134, -219, 175, -205, 197, -188, 219, -165, 235, -132, 243, -105, 244, -62, 237, -15, 208, 63, 175, 100, 119, 142, 64, 176, 6, 200, -66, 212, -135, 205, -200, 173, -230, 131, -237, 86, -238, 26, -220, -17, -199, -59, -167, -103, -131, -136)
+
+[resource]
+script = ExtResource("1_8bgc3")
+item_name = "Lid"
+icon = ExtResource("1_1a0n8")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

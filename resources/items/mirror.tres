@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://brvp05h2r72ro"]
+
+[ext_resource type="Texture2D" uid="uid://bde4sqsx3c7qh" path="res://assets/sprites/items/mirror.png" id="1_1ja5k"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_y10vt"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-105, 57, -124, 53, -160, 36, -198, 0, -220, -43, -230, -88, -231, -133, -225, -165, -218, -192, -201, -212, -179, -234, -140, -256, -92, -265, -46, -258, -14, -246, 16, -214, 36, -182, 47, -157, 54, -114, 54, -75, 48, -33, 36, -4, 27, 12, 63, 9, 92, 13, 87, -1, 90, -9, 100, -12, 109, -12, 118, -4, 119, 4, 112, 9, 111, 12, 129, 13, 146, 19, 160, 29, 169, 42, 171, 47, 190, 60, 200, 78, 217, 74, 213, 66, 221, 62, 229, 59, 238, 60, 242, 67, 242, 73, 237, 79, 228, 82, 216, 92, 226, 126, 229, 160, 226, 190, 218, 219, 206, 236, 174, 248, 133, 257, 72, 259, 15, 251, -41, 236, -89, 197, -113, 153, -115, 103, -104, 77, -95, 70, -105, 65)
+
+[resource]
+script = ExtResource("1_y10vt")
+item_name = "Mirror"
+icon = ExtResource("1_1ja5k")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bo8lx67eigyot"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_6hq3l"]
+[ext_resource type="Texture2D" uid="uid://ca7q7n04qu6i6" path="res://assets/sprites/items/pillow.png" id="1_6l3xg"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-264, 36, -248, 16, -237, -17, -210, -73, -182, -112, -189, -125, -189, -146, -180, -162, -160, -167, -163, -185, -158, -205, -143, -221, -126, -228, -99, -224, -78, -215, -71, -211, -55, -216, -36, -216, -18, -209, -11, -196, 7, -194, 21, -190, 27, -177, 29, -168, 82, -149, 124, -129, 176, -97, 218, -67, 245, -64, 257, -58, 262, -47, 257, -31, 245, -16, 235, -6, 197, 73, 171, 119, 131, 183, 136, 197, 137, 217, 132, 224, 121, 229, 109, 227, 92, 219, 76, 205, 14, 185, -67, 148, -142, 113, -207, 72, -229, 65, -242, 67, -252, 61, -262, 51)
+
+[resource]
+script = ExtResource("1_6hq3l")
+item_name = "Pillow"
+icon = ExtResource("1_6l3xg")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ddmw3pudchdua"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_c4mtm"]
+[ext_resource type="Texture2D" uid="uid://due6ttd0uhn0p" path="res://assets/sprites/items/moss.png" id="1_iy56i"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-171, -117, -168, -144, -152, -176, -136, -200, -112, -214, -81, -225, -50, -227, -27, -220, -3, -208, 12, -219, 35, -229, 71, -232, 94, -229, 124, -219, 149, -199, 163, -180, 163, -161, 193, -150, 221, -130, 238, -101, 244, -79, 245, -59, 241, -42, 232, -35, 242, -20, 257, 7, 260, 34, 257, 59, 242, 83, 209, 110, 235, 121, 245, 136, 247, 152, 238, 173, 226, 186, 210, 190, 192, 188, 178, 200, 156, 203, 136, 197, 124, 182, 111, 191, 92, 194, 70, 194, 59, 185, 36, 190, 9, 180, -12, 164, -15, 149, -47, 153, -69, 152, -54, 164, -48, 179, -51, 195, -60, 209, -75, 219, -102, 219, -113, 212, -121, 218, -137, 218, -152, 220, -171, 209, -176, 192, -174, 180, -160, 172, -151, 173, -149, 158, -139, 148, -126, 143, -112, 143, -97, 149, -88, 153, -81, 153, -75, 153, -74, 150, -104, 134, -128, 115, -154, 126, -194, 129, -225, 119, -246, 101, -256, 81, -258, 58, -254, 36, -240, 23, -248, 4, -253, -18, -252, -44, -246, -67, -236, -86, -222, -103, -201, -114, -186, -117)
+
+[resource]
+script = ExtResource("1_c4mtm")
+item_name = "Moss"
+icon = ExtResource("1_iy56i")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

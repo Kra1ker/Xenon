@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://biedl2pyb7npn"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_6cqcm"]
+[ext_resource type="Texture2D" uid="uid://cujqkgbi7y7kb" path="res://assets/sprites/items/spool.png" id="1_ick53"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-151, -26, -174, -35, -195, -48, -208, -65, -216, -85, -218, -101, -214, -123, -208, -140, -200, -154, -187, -169, -170, -185, -156, -196, -135, -207, -115, -216, -94, -225, -72, -232, -51, -235, -30, -237, -4, -238, 23, -235, 49, -228, 68, -216, 80, -199, 87, -179, 85, -162, 79, -146, 76, -139, 88, -111, 94, -109, 98, -104, 99, -99, 99, -94, 98, -82, 137, 12, 143, 17, 145, 23, 145, 29, 143, 31, 147, 42, 156, 41, 163, 44, 171, 48, 178, 54, 184, 61, 192, 74, 198, 93, 200, 114, 198, 135, 195, 146, 185, 159, 169, 174, 150, 190, 135, 199, 111, 212, 79, 225, 48, 233, 25, 234, -4, 234, -28, 228, -38, 223, -48, 213, -59, 201, -67, 188, -75, 171, -77, 154, -74, 144, -69, 137, -81, 128, -99, 119, -108, 109, -110, 98, -108, 90, -102, 74, -99, 64)
+
+[resource]
+script = ExtResource("1_6cqcm")
+item_name = "Spool"
+icon = ExtResource("1_ick53")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

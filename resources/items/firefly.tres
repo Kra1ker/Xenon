@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://1ef4nlhq5afh"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_2aw1o"]
+[ext_resource type="Texture2D" uid="uid://cl8iktatia06q" path="res://assets/sprites/items/firefly.png" id="1_y858h"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-240, 79, -230, 107, -206, 135, -163, 178, -96, 224, -58, 242, -26, 250, -4, 254, 13, 254, 32, 249, 41, 243, 72, 216, 90, 199, 137, 145, 176, 111, 215, 62, 236, 23, 240, -2, 236, -27, 230, -45, 211, -74, 189, -90, 183, -98, 194, -106, 197, -118, 194, -128, 207, -139, 222, -155, 214, -172, 199, -184, 184, -190, 182, -204, 171, -217, 149, -231, 131, -240, 69, -266, 55, -268, 44, -260, 37, -245, 38, -234, 32, -234, 24, -230, 17, -222, 17, -215, -14, -223, -40, -227, -68, -225, -98, -216, -121, -203, -139, -184, -156, -151, -180, -105, -197, -57, -210, -20, -221, 3, -231, 26, -239, 53)
+
+[resource]
+script = ExtResource("1_2aw1o")
+item_name = "Firefly"
+icon = ExtResource("1_y858h")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

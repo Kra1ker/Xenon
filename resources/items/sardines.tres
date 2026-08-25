@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b2bwm0glbvman"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_ethw7"]
+[ext_resource type="Texture2D" uid="uid://jr07bx0868q1" path="res://assets/sprites/items/sardines.png" id="1_lr8ac"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-254, -145, -240, -156, -165, -194, -76, -234, -23, -253, -4, -257, 53, -190, 66, -185, 81, -168, 81, -159, 202, -11, 250, 54, 257, 81, 256, 112, 249, 145, 238, 155, 226, 158, 166, 188, 123, 204, 86, 221, 46, 241, 23, 250, 3, 248, -10, 241, -32, 221, -91, 164, -201, 40, -245, -21, -252, -33, -261, -132)
+
+[resource]
+script = ExtResource("1_ethw7")
+item_name = "Sardines"
+icon = ExtResource("1_lr8ac")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

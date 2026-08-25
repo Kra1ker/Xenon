@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c7tiust47hm8o"]
+
+[ext_resource type="Texture2D" uid="uid://dk1x5u5vei135" path="res://assets/sprites/items/needle-pad.png" id="1_bs81u"]
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_ohru1"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-224, 183, -206, 163, -180, 155, -162, 158, -154, 172, -146, 163, -179, 141, -188, 125, -197, 64, -191, 54, -194, 7, -184, -44, -200, -32, -219, -35, -236, -49, -234, -70, -210, -86, -192, -82, -180, -69, -179, -55, -146, -112, -168, -135, -182, -133, -200, -142, -212, -159, -202, -181, -174, -193, -150, -178, -148, -163, -154, -146, -139, -122, -107, -148, -75, -162, -44, -172, -16, -181, 32, -183, 32, -188, 15, -192, 2, -203, 1, -216, 14, -239, 35, -246, 58, -245, 71, -231, 69, -218, 61, -204, 42, -191, 44, -181, 97, -174, 147, -154, 157, -168, 152, -194, 168, -211, 187, -212, 207, -204, 213, -194, 212, -180, 200, -162, 184, -157, 170, -161, 159, -146, 195, -101, 218, -100, 231, -87, 239, -71, 237, -54, 228, -41, 220, -37, 228, 2, 227, 37, 235, 66, 232, 95, 216, 126, 185, 158, 142, 184, 59, 199, -3, 201, -64, 194, -85, 185, -84, 196, -92, 202, -115, 206, -129, 233, -156, 242, -194, 237, -219, 221, -226, 198)
+
+[resource]
+script = ExtResource("1_ohru1")
+item_name = "Needle-pad"
+icon = ExtResource("1_bs81u")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

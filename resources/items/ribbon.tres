@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bfmrxjc4gkmuc"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_hmrmt"]
+[ext_resource type="Texture2D" uid="uid://0lul20m7iqj5" path="res://assets/sprites/items/ribbon.png" id="1_n04l4"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-165, -148, -148, -166, -99, -194, -39, -219, 18, -236, 68, -247, 113, -255, 165, -260, 200, -256, 211, -249, 207, -239, 193, -231, 181, -224, 196, -213, 197, -207, 184, -191, 190, -180, 189, -176, 173, -170, 83, -149, 20, -126, -66, -85, -77, -77, -18, -56, 31, -47, 90, -40, 121, -31, 135, -21, 150, 0, 154, 17, 149, 54, 138, 83, 115, 116, 98, 129, 63, 129, 67, 148, 65, 176, 60, 200, 56, 213, 45, 226, 28, 235, 6, 242, -45, 249, -63, 249, -76, 246, -78, 241, -68, 216, -84, 205, -89, 191, -85, 184, -48, 172, -57, 162, -57, 139, -52, 119, -45, 104, -38, 90, -24, 69, -1, 59, 12, 54, -5, 49, -80, 39, -111, 36, -158, 27, -186, 17, -210, 3, -217, -18, -213, -48, -202, -79, -184, -116)
+
+[resource]
+script = ExtResource("1_hmrmt")
+item_name = "Ribbon"
+icon = ExtResource("1_n04l4")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

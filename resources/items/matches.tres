@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://7d3xuu485vff"]
+
+[ext_resource type="Script" uid="uid://ceqlm4xcv54mn" path="res://scripts/item_data.gd" id="1_mjmbs"]
+[ext_resource type="Texture2D" uid="uid://cnm6k3bdpgo6t" path="res://assets/sprites/items/matches.png" id="1_rdqh6"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_k7chi"]
+points = PackedVector2Array(-252, 21, -117, -98, -14, -172, 55, -222, 164, -160, 238, -113, 259, -99, 261, -77, 250, -17, 115, 108, -40, 235, -70, 222, -169, 157, -255, 84, -255, 71)
+
+[resource]
+script = ExtResource("1_mjmbs")
+item_name = "Matches"
+icon = ExtResource("1_rdqh6")
+collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
+metadata/_custom_type_script = "uid://ceqlm4xcv54mn"
