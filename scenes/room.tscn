@@ -17,7 +17,6 @@ position = Vector2(1237, 147)
 position = Vector2(520, 274)
 
 [node name="WorldDropItem" parent="." unique_id=1660113513 instance=ExtResource("3_jn645")]
-visible = false
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1444752579]
 stream = ExtResource("4_qvc4m")
