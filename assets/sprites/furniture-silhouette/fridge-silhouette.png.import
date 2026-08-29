@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2f2kfxhcb3i3"
-path="res://.godot/imported/garland.png-3a0b8f02c85563cb8294fa0f4a077f57.ctex"
+uid="uid://b4ou3vvildv12"
+path="res://.godot/imported/fridge-silhouette.png-64ac2422c4bce0b1645716042fa2aef5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/garland.png"
-dest_files=["res://.godot/imported/garland.png-3a0b8f02c85563cb8294fa0f4a077f57.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/fridge-silhouette.png"
+dest_files=["res://.godot/imported/fridge-silhouette.png-64ac2422c4bce0b1645716042fa2aef5.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfowimcdf2mdq"
-path="res://.godot/imported/pictures.png-2f08c55863bca8f0316417b82009fbfa.ctex"
+uid="uid://cikpp6f4yyxbo"
+path="res://.godot/imported/shelves-silhouette.png-6c86826d43c09da8fec08a68806e038c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/pictures.png"
-dest_files=["res://.godot/imported/pictures.png-2f08c55863bca8f0316417b82009fbfa.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/shelves-silhouette.png"
+dest_files=["res://.godot/imported/shelves-silhouette.png-6c86826d43c09da8fec08a68806e038c.ctex"]
 
 [params]
 

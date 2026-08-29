@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tcn3bqg1s77p"
-path="res://.godot/imported/floor-carpet.png-6e0e6e3ed7089077b8e4b2ca628ec769.ctex"
+uid="uid://ca8amnwunj1dq"
+path="res://.godot/imported/ficus-silhouette.png-cfa771a65c44de4be8342014041b94b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/floor-carpet.png"
-dest_files=["res://.godot/imported/floor-carpet.png-6e0e6e3ed7089077b8e4b2ca628ec769.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/ficus-silhouette.png"
+dest_files=["res://.godot/imported/ficus-silhouette.png-cfa771a65c44de4be8342014041b94b3.ctex"]
 
 [params]
 

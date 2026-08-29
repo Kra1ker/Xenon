@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgimya8uj8ixv"
-path="res://.godot/imported/wall-carpet.png-11699d8c9246dd53890cf3063f401dfe.ctex"
+uid="uid://3f5l5gy8bhid"
+path="res://.godot/imported/round-table-silhouette.png-f253d54828dcdff5a3c291922d8da66b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/wall-carpet.png"
-dest_files=["res://.godot/imported/wall-carpet.png-11699d8c9246dd53890cf3063f401dfe.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/round-table-silhouette.png"
+dest_files=["res://.godot/imported/round-table-silhouette.png-f253d54828dcdff5a3c291922d8da66b.ctex"]
 
 [params]
 

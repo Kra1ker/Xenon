@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjgw4s53wmje6"
-path="res://.godot/imported/mirror.png-c03c3987b9a51fa085dd7135458af3f9.ctex"
+uid="uid://doslgv2ounjsg"
+path="res://.godot/imported/wall-carpet-silhouette.png-1e67f45b52753bd196af1359013fc74e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/mirror.png"
-dest_files=["res://.godot/imported/mirror.png-c03c3987b9a51fa085dd7135458af3f9.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/wall-carpet-silhouette.png"
+dest_files=["res://.godot/imported/wall-carpet-silhouette.png-1e67f45b52753bd196af1359013fc74e.ctex"]
 
 [params]
 

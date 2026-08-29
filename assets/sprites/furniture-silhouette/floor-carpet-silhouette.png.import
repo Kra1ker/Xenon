@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cau0my1ix4idn"
-path="res://.godot/imported/coffee-table.png-f910c8097a03095840fda4246987cb49.ctex"
+uid="uid://xauj24onyywk"
+path="res://.godot/imported/floor-carpet-silhouette.png-18cffd07c04d91025da4f69bf579e188.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/coffee-table.png"
-dest_files=["res://.godot/imported/coffee-table.png-f910c8097a03095840fda4246987cb49.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/floor-carpet-silhouette.png"
+dest_files=["res://.godot/imported/floor-carpet-silhouette.png-18cffd07c04d91025da4f69bf579e188.ctex"]
 
 [params]
 

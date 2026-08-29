@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb3jjh55u83nk"
-path="res://.godot/imported/fridge.png-f57876a2176780d32e4ef44b5eb3ceb7.ctex"
+uid="uid://bymqq4sm00e6k"
+path="res://.godot/imported/sofa-silhouette.png-1782fb4246fee6f6268f4377d6714322.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/fridge.png"
-dest_files=["res://.godot/imported/fridge.png-f57876a2176780d32e4ef44b5eb3ceb7.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/sofa-silhouette.png"
+dest_files=["res://.godot/imported/sofa-silhouette.png-1782fb4246fee6f6268f4377d6714322.ctex"]
 
 [params]
 

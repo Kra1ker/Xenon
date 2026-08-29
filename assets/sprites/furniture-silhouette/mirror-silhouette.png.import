@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdotp0d0rjxwj"
-path="res://.godot/imported/wardrobe.png-c978547ca9e61d82e5a327958e5203f7.ctex"
+uid="uid://3fv0xox7gfx8"
+path="res://.godot/imported/mirror-silhouette.png-47f6bd180e27b8ec9100a07a33fbf44d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/wardrobe.png"
-dest_files=["res://.godot/imported/wardrobe.png-c978547ca9e61d82e5a327958e5203f7.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/mirror-silhouette.png"
+dest_files=["res://.godot/imported/mirror-silhouette.png-47f6bd180e27b8ec9100a07a33fbf44d.ctex"]
 
 [params]
 

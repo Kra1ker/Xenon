@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyerxi23m86gu"
-path="res://.godot/imported/ficus.png-a4a635217331acb147ffb5b7aaa4d684.ctex"
+uid="uid://c0fsfn0880xeg"
+path="res://.godot/imported/pictures-silhouette.png-95e27ae7064241bc2c5b9478aacbf0b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/ficus.png"
-dest_files=["res://.godot/imported/ficus.png-a4a635217331acb147ffb5b7aaa4d684.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/pictures-silhouette.png"
+dest_files=["res://.godot/imported/pictures-silhouette.png-95e27ae7064241bc2c5b9478aacbf0b0.ctex"]
 
 [params]
 

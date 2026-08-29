@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cf7k0njb1rdto"
-path="res://.godot/imported/clock.png-b196d37488064cd2fa2485d416c2ed94.ctex"
+uid="uid://87wx8mo8rwcr"
+path="res://.godot/imported/chair-silhouette.png-8e044c17d7a16fd6e1f1db58768571e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/clock.png"
-dest_files=["res://.godot/imported/clock.png-b196d37488064cd2fa2485d416c2ed94.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/chair-silhouette.png"
+dest_files=["res://.godot/imported/chair-silhouette.png-8e044c17d7a16fd6e1f1db58768571e0.ctex"]
 
 [params]
 

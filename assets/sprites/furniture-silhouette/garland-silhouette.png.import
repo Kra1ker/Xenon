@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bse063mmdfem0"
-path="res://.godot/imported/floor-lamp.png-e15d8029c17146e75c773d71d602b6fa.ctex"
+uid="uid://bihe7401ptcyt"
+path="res://.godot/imported/garland-silhouette.png-603b0128b7ab1fbb912608b63ca73596.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/floor-lamp.png"
-dest_files=["res://.godot/imported/floor-lamp.png-e15d8029c17146e75c773d71d602b6fa.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/garland-silhouette.png"
+dest_files=["res://.godot/imported/garland-silhouette.png-603b0128b7ab1fbb912608b63ca73596.ctex"]
 
 [params]
 

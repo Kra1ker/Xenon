@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chtk6a5leflbw"
-path="res://.godot/imported/round-table.png-e6c3c1084ff5d313f8fdf05953471a62.ctex"
+uid="uid://bil5omgyjrgwv"
+path="res://.godot/imported/wardrobe-silhouette.png-194fc1bc4d1c1cc2b909c0b3675ca2d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/furniture-silhouette/round-table.png"
-dest_files=["res://.godot/imported/round-table.png-e6c3c1084ff5d313f8fdf05953471a62.ctex"]
+source_file="res://assets/sprites/furniture-silhouette/wardrobe-silhouette.png"
+dest_files=["res://.godot/imported/wardrobe-silhouette.png-194fc1bc4d1c1cc2b909c0b3675ca2d5.ctex"]
 
 [params]
 
