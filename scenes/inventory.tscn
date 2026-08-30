@@ -104,6 +104,11 @@ texture = ExtResource("3_5tt2m")
 expand_mode = 1
 stretch_mode = 5
 
+[node name="ItemTooltip" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot2" unique_id=258010994 instance=ExtResource("5_g71ie")]
+visible = false
+layout_mode = 0
+mouse_filter = 2
+
 [node name="ItemSlot3" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=1845966995]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
@@ -120,6 +125,11 @@ grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
+
+[node name="ItemTooltip" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot3" unique_id=551385186 instance=ExtResource("5_g71ie")]
+visible = false
+layout_mode = 0
+mouse_filter = 2
 
 [node name="ItemSlot4" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=264123709]
 custom_minimum_size = Vector2(150, 150)
@@ -138,6 +148,11 @@ grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
+[node name="ItemTooltip" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot4" unique_id=864993118 instance=ExtResource("5_g71ie")]
+visible = false
+layout_mode = 0
+mouse_filter = 2
+
 [node name="ItemSlot5" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=565850267]
 custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
@@ -154,3 +169,8 @@ grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
+
+[node name="ItemTooltip" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot5" unique_id=884062751 instance=ExtResource("5_g71ie")]
+visible = false
+layout_mode = 0
+mouse_filter = 2
