@@ -11,5 +11,6 @@ points = PackedVector2Array(-432, 504, -280, 148, 312, -510, 406, -466, 496, -33
 script = ExtResource("2_q5hd2")
 item_name = "Pencil"
 icon = ExtResource("1_boh2j")
+description = "A used and chewed pencil. Still can serve as a stand."
 collision_shape = SubResource("ConvexPolygonShape2D_boh2j")
 metadata/_custom_type_script = "uid://ceqlm4xcv54mn"

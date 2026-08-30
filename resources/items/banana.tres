@@ -12,5 +12,6 @@ load_path = "res://.godot/imported/banana.png-3216591ecd68929f23ca02ab8c30523a.c
 script = ExtResource("1_ymkv2")
 item_name = "Banana"
 icon = SubResource("CompressedTexture2D_s130s")
+description = "Is filthy. Light can shine through it."
 collision_shape = SubResource("ConvexPolygonShape2D_k7chi")
 metadata/_custom_type_script = "uid://ceqlm4xcv54mn"
