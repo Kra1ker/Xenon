@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://cvlwauxrmydwy"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_1ut1j"]
+[ext_resource type="Texture2D" uid="uid://cxq31dy6wf53x" path="res://assets/sprites/furniture-crafted/vase-crafted.png" id="2_jbudc"]
+
+[resource]
+script = ExtResource("1_1ut1j")
+item_name = "Vase"
+texture_crafted = ExtResource("2_jbudc")

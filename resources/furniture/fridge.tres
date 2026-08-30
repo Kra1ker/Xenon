@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://buwrncvis0avu"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_1t03v"]
+[ext_resource type="Texture2D" uid="uid://cfag5iqflm5mj" path="res://assets/sprites/furniture-crafted/fridge-crafted.png" id="2_1t03v"]
+[ext_resource type="Texture2D" uid="uid://b4ou3vvildv12" path="res://assets/sprites/furniture-silhouette/fridge-silhouette.png" id="3_umwkp"]
+
+[resource]
+script = ExtResource("1_1t03v")
+item_name = "Fridge"
+texture_crafted = ExtResource("2_1t03v")
+texture_silhouette = ExtResource("3_umwkp")
+collision_crafted = PackedVector2Array(-306, -355, -281, -388, -242, -419, -209, -438, -166, -449, 239, -449, 268, -442, 286, -432, 303, -414, 312, -396, 319, -373, 319, -364, 317, 365, 313, 389, 304, 411, 282, 429, 250, 441, 219, 448, -145, 448, -179, 440, -215, 429, -246, 408, -270, 387, -294, 363, -300, 347, -308, 250, -316, 107, -315, 39, -317, -40, -319, -112, -314, -254, -315, -281, -304, -348)
+collision_silhouette = PackedVector2Array(-53, -387, 69, -383, 133, -364, 176, -337, 206, -306, 224, -273, 223, 368, 214, 380, 191, 385, 173, 372, 165, 354, -158, 352, -162, 371, -178, 386, -200, 388, -224, 368, -223, -248, -208, -289, -184, -326, -144, -358, -94, -378)

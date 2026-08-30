@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://b1t77jx8der3c"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_s6upg"]
+[ext_resource type="Texture2D" uid="uid://dyud0rm17p48l" path="res://assets/sprites/furniture-crafted/clock-crafted.png" id="2_s6upg"]
+[ext_resource type="Texture2D" uid="uid://bobionwys60xw" path="res://assets/sprites/furniture-silhouette/clock-silhouette.png" id="3_td7e6"]
+
+[resource]
+script = ExtResource("1_s6upg")
+item_name = "Clock"
+texture_crafted = ExtResource("2_s6upg")
+texture_silhouette = ExtResource("3_td7e6")
+collision_crafted = PackedVector2Array(-445, 16, -400, -206, -222, -380, -2, -440, 226, -361, 307, -303, 378, -200, 423, 23, 376, 222, 211, 409, -2, 464, -218, 422, -396, 239)
+collision_silhouette = PackedVector2Array(-118, -82, -108, -67, -95, -53, -88, -64, -79, -67, -76, 40, -11, 44, -9, 121, -21, 126, -30, 137, -36, 152, -31, 167, -20, 180, -6, 185, 9, 185, 20, 178, 30, 166, 32, 149, 25, 136, 10, 121, 12, 42, 72, 43, 77, -79, 93, -62, 109, -62, 118, -83, 14, -187, 2, -187)

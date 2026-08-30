@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://bueruvqpoorp2"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_pvn5f"]
+[ext_resource type="Texture2D" uid="uid://bgo3854tn8wca" path="res://assets/sprites/furniture-crafted/floor-carpet-crafted.png" id="2_pvn5f"]
+[ext_resource type="Texture2D" uid="uid://xauj24onyywk" path="res://assets/sprites/furniture-silhouette/floor-carpet-silhouette.png" id="3_oqq5m"]
+
+[resource]
+script = ExtResource("1_pvn5f")
+item_name = "Floor-carpet"
+texture_crafted = ExtResource("2_pvn5f")
+texture_silhouette = ExtResource("3_oqq5m")
+collision_crafted = PackedVector2Array(-445, -21, -425, -50, -367, -83, -294, -109, -205, -129, -118, -140, -22, -145, 70, -142, 150, -136, 266, -117, 337, -96, 401, -65, 437, -31, 448, -14, 451, 1, 445, 21, 423, 49, 392, 69, 317, 104, 250, 121, 105, 141, -56, 143, -161, 135, -260, 118, -350, 91, -416, 57, -447, 20, -450, -3)
+collision_silhouette = PackedVector2Array(-2, -138, -186, -130, -305, -119, -479, -67, -528, -31, -534, 8, -504, 45, -453, 68, -384, 93, -305, 111, -141, 134, 29, 139, 190, 131, 321, 114, 407, 97, 480, 65, 527, 33, 536, -4, 519, -32, 452, -75, 311, -114, 108, -137)
