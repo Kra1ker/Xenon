@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://bu07wusresq30"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_i4a35"]
+[ext_resource type="Texture2D" uid="uid://cv7rwxoawav7h" path="res://assets/sprites/furniture-crafted/coffee-table-crafted.png" id="2_urpdk"]
+[ext_resource type="Texture2D" uid="uid://77x8avlnew1x" path="res://assets/sprites/furniture-silhouette/coffee-table-silhouette.png" id="3_y50jc"]
+
+[resource]
+script = ExtResource("1_i4a35")
+item_name = "Сoffee-table"
+texture_crafted = ExtResource("2_urpdk")
+texture_silhouette = ExtResource("3_y50jc")
+collision_crafted = PackedVector2Array(-445, 1, -446, -127, 183, -154, 445, -31, 446, 90, -198, 122)
+collision_silhouette = PackedVector2Array(-390, -19, -338, 19, -337, 108, -322, 117, -301, 119, -278, 114, -271, 106, -271, 40, 273, 39, 277, 50, 290, 56, 302, 62, 317, 56, 325, 40, 383, 37, 381, 106, 392, 112, 449, 114, 458, 101, 454, 1, 308, -119, -461, -104, -456, 21, -448, 38, -436, 48, -420, 49, -401, 40, -394, 27, -391, 10)

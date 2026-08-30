@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FurnitureData" format=3 uid="uid://2qehegk53amx"]
+
+[ext_resource type="Script" uid="uid://dellcjkx0k5vv" path="res://scripts/furniture_data.gd" id="1_0lb17"]
+[ext_resource type="Texture2D" uid="uid://cd485lc2jljmm" path="res://assets/sprites/furniture-crafted/wardrobe-crafted.png" id="2_0lb17"]
+[ext_resource type="Texture2D" uid="uid://bil5omgyjrgwv" path="res://assets/sprites/furniture-silhouette/wardrobe-silhouette.png" id="3_4u6m7"]
+
+[resource]
+script = ExtResource("1_0lb17")
+item_name = "Wardrobe"
+texture_crafted = ExtResource("2_0lb17")
+texture_silhouette = ExtResource("3_4u6m7")
+collision_crafted = PackedVector2Array(-208, 408, 151, 411, 193, 404, 212, 392, 247, 351, 329, 251, 333, 233, 336, 117, 334, -230, 323, -251, 280, -301, 285, -304, 288, -318, 283, -333, 251, -363, 204, -394, 174, -403, 132, -408, -32, -406, -110, -407, -180, -407, -199, -407, -234, -402, -252, -395, -267, -384, -281, -370, -296, -351, -303, -337, -308, -312, -311, -257, -315, -252, -317, -246, -329, -245, -333, -236, -335, -210, -335, -168, -329, -143, -318, -139, -312, -131, -312, 152, -321, 162, -328, 164, -329, 168, -332, 171, -336, 203, -333, 260, -329, 266, -318, 267, -310, 277, -307, 328, -300, 353, -285, 373, -268, 391, -250, 402, -222, 408)
+collision_silhouette = PackedVector2Array(-335, -444, -332, -463, 212, -459, 337, -401, 333, 353, 326, 362, 314, 365, 305, 359, 303, 350, 236, 401, 233, 448, 192, 458, 176, 449, 173, 428, 176, 419, -282, 416, -282, 446, -285, 458, -304, 463, -332, 459, -329, -440)
