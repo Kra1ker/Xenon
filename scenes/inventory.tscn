@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://dieuwdtdcg868"]
 
 [ext_resource type="Script" uid="uid://odf8cofp864d" path="res://scripts/inventory.gd" id="1_53g1v"]
-[ext_resource type="Texture2D" uid="uid://b1mr3ywleo80w" path="res://assets/sprites/items/banana.png" id="1_pohso"]
+[ext_resource type="Texture2D" uid="uid://d1kmv6lslrw8j" path="res://assets/sprites/items/banana.png" id="1_pohso"]
 [ext_resource type="Script" uid="uid://cdqjev7qo7we2" path="res://scripts/item_slot.gd" id="1_psafj"]
-[ext_resource type="Texture2D" uid="uid://b0gqi2717fh5w" path="res://assets/sprites/items/pencil.png" id="3_5tt2m"]
+[ext_resource type="Texture2D" uid="uid://b4b3fntihpp1e" path="res://assets/sprites/items/pencil.png" id="3_5tt2m"]
 [ext_resource type="Resource" uid="uid://bvsfyvn4yh0jy" path="res://resources/items/banana.tres" id="3_uae8j"]
+[ext_resource type="PackedScene" uid="uid://chchv0guydvhb" path="res://scenes/item_tooltip.tscn" id="5_g71ie"]
 [ext_resource type="Resource" uid="uid://dt56lhnaqt2p2" path="res://resources/items/pencil.tres" id="5_s887n"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1722406216]
@@ -78,6 +79,11 @@ grow_vertical = 2
 texture = ExtResource("1_pohso")
 expand_mode = 1
 stretch_mode = 5
+
+[node name="ItemTooltip" parent="Inventory/Panel/MarginContainer/InventoryGridContainer/ItemSlot" unique_id=262451718 instance=ExtResource("5_g71ie")]
+visible = false
+layout_mode = 0
+mouse_filter = 2
 
 [node name="ItemSlot2" type="Panel" parent="Inventory/Panel/MarginContainer/InventoryGridContainer" unique_id=1526670613]
 custom_minimum_size = Vector2(150, 150)
